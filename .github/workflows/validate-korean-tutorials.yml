@@ -1,0 +1,36 @@
+name: Validate Korean tutorial translations
+
+on:
+  pull_request:
+    paths:
+      - src/systems/tutorialCatalogue.js
+      - locales/ko/tutorials.ko.json
+      - tools/ko/check_tutorial_translations.mjs
+      - .github/workflows/validate-korean-tutorials.yml
+  push:
+    branches:
+      - main
+      - ko-online-qa-20261014
+    paths:
+      - src/systems/tutorialCatalogue.js
+      - locales/ko/tutorials.ko.json
+      - tools/ko/check_tutorial_translations.mjs
+      - .github/workflows/validate-korean-tutorials.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            src/systems/tutorialCatalogue.js
+            locales/ko/tutorials.ko.json
+            tools/ko/check_tutorial_translations.mjs
+      - name: Check Korean tutorial parity and key tokens
+        run: node tools/ko/check_tutorial_translations.mjs
