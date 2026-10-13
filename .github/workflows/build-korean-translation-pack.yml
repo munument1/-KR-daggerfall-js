@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
       - ko-online-qa-20261014
     paths:
       - locales/ko/Port_Strings.csv
