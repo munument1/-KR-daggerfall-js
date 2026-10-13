@@ -1,0 +1,139 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/enhancedInventory.js",
+  "source_sha": "0156b43466fa4ccde539bc2c698716bbce3e8e90",
+  "entries": [
+    {
+      "id": "inventory-notices.001",
+      "line": 3357,
+      "en": "No item description available.",
+      "ko": "아이템 설명이 없습니다."
+    },
+    {
+      "id": "inventory-notices.002",
+      "line": 3385,
+      "en": "Dismantle",
+      "ko": "분해"
+    },
+    {
+      "id": "inventory-notices.003",
+      "line": 3391,
+      "en": "Dismantle",
+      "ko": "분해"
+    },
+    {
+      "id": "inventory-notices.004",
+      "line": 3402,
+      "en": "Keep",
+      "ko": "보관"
+    },
+    {
+      "id": "inventory-notices.005",
+      "line": 3446,
+      "en": "Salvage",
+      "ko": "재활용"
+    },
+    {
+      "id": "inventory-notices.006",
+      "line": 3452,
+      "en": "Salvage",
+      "ko": "재활용"
+    },
+    {
+      "id": "inventory-notices.007",
+      "line": 3463,
+      "en": "Keep",
+      "ko": "보관"
+    },
+    {
+      "id": "inventory-notices.008",
+      "line": 3508,
+      "en": "Keep",
+      "ko": "보관"
+    },
+    {
+      "id": "inventory-notices.009",
+      "line": 3540,
+      "en": "Item information",
+      "ko": "아이템 정보"
+    },
+    {
+      "id": "inventory-notices.010",
+      "line": 3558,
+      "en": "Close",
+      "ko": "닫기"
+    },
+    {
+      "id": "inventory-notices.011",
+      "line": 3624,
+      "en": "Your decks are built on the Holdings page, under Collections.",
+      "ko": "덱은 소유물 > 수집품 화면에서 구성할 수 있습니다."
+    },
+    {
+      "id": "inventory-notices.012",
+      "line": 3634,
+      "en": "Binder",
+      "ko": "카드 바인더"
+    },
+    {
+      "id": "inventory-notices.013",
+      "line": 3640,
+      "en": "Wallet",
+      "ko": "지갑"
+    },
+    {
+      "id": "inventory-notices.014",
+      "line": 3654,
+      "en": "Pick something to read it.",
+      "ko": "상세 정보를 보려면 항목을 선택하세요."
+    },
+    {
+      "id": "inventory-notices.015",
+      "line": 3781,
+      "en": "Pack",
+      "ko": "소지품"
+    },
+    {
+      "id": "inventory-notices.016",
+      "line": 3792,
+      "en": "Codex",
+      "ko": "도감"
+    },
+    {
+      "id": "inventory-notices.017",
+      "line": 3799,
+      "en": "Hide body",
+      "ko": "장비 모습 숨기기"
+    },
+    {
+      "id": "inventory-notices.018",
+      "line": 3799,
+      "en": "Body",
+      "ko": "장비 모습"
+    },
+    {
+      "id": "inventory-notices.019",
+      "line": 3804,
+      "en": "Close",
+      "ko": "닫기"
+    },
+    {
+      "id": "inventory-notices.020",
+      "line": 3860,
+      "en": "Carry Weight",
+      "ko": "휴대 무게"
+    },
+    {
+      "id": "inventory-notices.021",
+      "line": 3868,
+      "en": "Gold",
+      "ko": "금화"
+    },
+    {
+      "id": "inventory-notices.022",
+      "line": 3897,
+      "en": "Materials Bag",
+      "ko": "재료 가방"
+    }
+  ]
+}
