@@ -53,3 +53,17 @@
 - `test/l10n4_hardcoded.test.js`
 - `src/systems/translationPacks.js`
 - `src/scenes/localeData.js`
+
+## 튜토리얼 미번역 원인 (추가 조사)
+
+2026-10-11에 추가된 DFO 자체 튜토리얼은 기존 DFU의 `_TUTOR__` 퀘스트 안내 대신 새로운 시스템으로 동작합니다.
+
+- 원문 데이터: `src/systems/tutorialCatalogue.js` — **68개 페이지, 13개 분류**. `title`, `trigger`, `body`, `points` 필드에 영어가 직접 들어 있음.
+- 선택 및 읽음 기록: `src/systems/tutorials.js` — 튜토리얼 페이지 ID에 따라 실행되며, `tutorialText()`가 원문을 그대로 반환함.
+- UI 표시: `src/ui/tutorialsPane.js` 및 `src/ui/tutorialPopup.js` — 반환된 원문을 표시함.
+- 입력 키 표기: 원문에는 `{Inventory}`, `{MoveForwards}` 등 실시간 키 바인딩용 코드가 있으며, 번역할 때 반드시 그대로 유지해야 함.
+- 현재 설치한 ZIP의 `Text/Port_Strings.csv`나 `Text/Quests`를 보완해도 위 코드에서 번역 키를 조회하지 않으므로 **튜토리얼은 한국어로 바뀌지 않음**.
+- 권장 방안: 원문 튜토리얼 및 동작 로직은 보존한 채 별도 **한국어 데이터 초안**을 작성하고, 추후 출력 시점에만 번역을 읽는 최소 변경을 검토. 변경 시 페이지 ID, 열람 상태, 팝업 트리거, 키 바인딩 대체, UI 레이아웃을 그대로 보존하도록 회귀 테스트 필수.
+- 공식 온라인 사이트는 사용자의 로컬 ZIP으로 JS 코드를 교체할 수 없으므로 최소 표시 변경이라도 원본 프로젝트의 반영이 필요함.
+
+**안전 범위:** 본 조사로 게임 시스템 소스는 수정하지 않음. 실행 코드 변경은 별도의 명시적 승인과 검증 뒤 진행.
