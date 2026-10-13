@@ -1,0 +1,313 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/enhancedInventory.js",
+  "source_sha": "0156b43466fa4ccde539bc2c698716bbce3e8e90",
+  "entries": [
+    {
+      "id": "inventory.001",
+      "line": 192,
+      "en": "Head",
+      "ko": "머리"
+    },
+    {
+      "id": "inventory.002",
+      "line": 193,
+      "en": "Amulet",
+      "ko": "목걸이"
+    },
+    {
+      "id": "inventory.003",
+      "line": 195,
+      "en": "Cloak",
+      "ko": "망토"
+    },
+    {
+      "id": "inventory.004",
+      "line": 197,
+      "en": "Chest, clothes",
+      "ko": "상의"
+    },
+    {
+      "id": "inventory.005",
+      "line": 198,
+      "en": "Chest, armour",
+      "ko": "몸통 방어구"
+    },
+    {
+      "id": "inventory.006",
+      "line": 199,
+      "en": "Right arm",
+      "ko": "오른팔"
+    },
+    {
+      "id": "inventory.007",
+      "line": 200,
+      "en": "Left arm",
+      "ko": "왼팔"
+    },
+    {
+      "id": "inventory.008",
+      "line": 201,
+      "en": "Bracer",
+      "ko": "팔보호대"
+    },
+    {
+      "id": "inventory.009",
+      "line": 203,
+      "en": "Bracelet",
+      "ko": "팔찌"
+    },
+    {
+      "id": "inventory.010",
+      "line": 205,
+      "en": "Ring",
+      "ko": "반지"
+    },
+    {
+      "id": "inventory.011",
+      "line": 207,
+      "en": "Right hand",
+      "ko": "오른손"
+    },
+    {
+      "id": "inventory.012",
+      "line": 208,
+      "en": "Left hand",
+      "ko": "왼손"
+    },
+    {
+      "id": "inventory.013",
+      "line": 209,
+      "en": "Gloves",
+      "ko": "장갑"
+    },
+    {
+      "id": "inventory.014",
+      "line": 210,
+      "en": "Legs, armour",
+      "ko": "다리 방어구"
+    },
+    {
+      "id": "inventory.015",
+      "line": 211,
+      "en": "Legs, clothes",
+      "ko": "하의"
+    },
+    {
+      "id": "inventory.016",
+      "line": 212,
+      "en": "Feet",
+      "ko": "발"
+    },
+    {
+      "id": "inventory.017",
+      "line": 213,
+      "en": "Mark",
+      "ko": "인장"
+    },
+    {
+      "id": "inventory.018",
+      "line": 215,
+      "en": "Crystal",
+      "ko": "수정"
+    },
+    {
+      "id": "inventory.019",
+      "line": 221,
+      "en": "Unnamed",
+      "ko": "이름 없음"
+    },
+    {
+      "id": "inventory.020",
+      "line": 333,
+      "en": "Light",
+      "ko": "광원"
+    },
+    {
+      "id": "inventory.021",
+      "line": 535,
+      "en": "Take off",
+      "ko": "장비 해제"
+    },
+    {
+      "id": "inventory.022",
+      "line": 538,
+      "en": "Douse",
+      "ko": "불 끄기"
+    },
+    {
+      "id": "inventory.023",
+      "line": 523,
+      "en": "Wear",
+      "ko": "착용"
+    },
+    {
+      "id": "inventory.024",
+      "line": 992,
+      "en": "Move here",
+      "ko": "여기로 이동"
+    },
+    {
+      "id": "inventory.025",
+      "line": 1975,
+      "en": "Cloaks",
+      "ko": "망토"
+    },
+    {
+      "id": "inventory.026",
+      "line": 1976,
+      "en": "Chest",
+      "ko": "몸통"
+    },
+    {
+      "id": "inventory.027",
+      "line": 1977,
+      "en": "Chest armor",
+      "ko": "몸통 방어구"
+    },
+    {
+      "id": "inventory.028",
+      "line": 1978,
+      "en": "Shirt",
+      "ko": "상의"
+    },
+    {
+      "id": "inventory.029",
+      "line": 1979,
+      "en": "Arms",
+      "ko": "팔"
+    },
+    {
+      "id": "inventory.030",
+      "line": 1982,
+      "en": "Hands",
+      "ko": "손"
+    },
+    {
+      "id": "inventory.031",
+      "line": 1983,
+      "en": "R\\u00b7Weapon",
+      "ko": "오른손 무기"
+    },
+    {
+      "id": "inventory.032",
+      "line": 1984,
+      "en": "L\\u00b7Hand",
+      "ko": "왼손"
+    },
+    {
+      "id": "inventory.033",
+      "line": 1985,
+      "en": "Legs",
+      "ko": "다리"
+    },
+    {
+      "id": "inventory.034",
+      "line": 1986,
+      "en": "Leg armor",
+      "ko": "다리 방어구"
+    },
+    {
+      "id": "inventory.035",
+      "line": 1987,
+      "en": "Pants / skirt",
+      "ko": "바지 / 치마"
+    },
+    {
+      "id": "inventory.036",
+      "line": 1989,
+      "en": "Travel",
+      "ko": "이동"
+    },
+    {
+      "id": "inventory.037",
+      "line": 1994,
+      "en": "Amulets",
+      "ko": "목걸이"
+    },
+    {
+      "id": "inventory.038",
+      "line": 1994,
+      "en": "Rings",
+      "ko": "반지"
+    },
+    {
+      "id": "inventory.039",
+      "line": 1994,
+      "en": "Bracelets",
+      "ko": "팔찌"
+    },
+    {
+      "id": "inventory.040",
+      "line": 1995,
+      "en": "Bracers",
+      "ko": "팔보호대"
+    },
+    {
+      "id": "inventory.041",
+      "line": 1995,
+      "en": "Marks",
+      "ko": "인장"
+    },
+    {
+      "id": "inventory.042",
+      "line": 1995,
+      "en": "Crystals",
+      "ko": "수정"
+    },
+    {
+      "id": "inventory.043",
+      "line": 1996,
+      "en": "Other",
+      "ko": "기타"
+    },
+    {
+      "id": "inventory.044",
+      "line": 2152,
+      "en": "Hood",
+      "ko": "후드"
+    },
+    {
+      "id": "inventory.045",
+      "line": 2213,
+      "en": "Mount",
+      "ko": "탈것"
+    },
+    {
+      "id": "inventory.046",
+      "line": 2213,
+      "en": "On foot",
+      "ko": "도보"
+    },
+    {
+      "id": "inventory.047",
+      "line": 2214,
+      "en": "Cart",
+      "ko": "짐수레"
+    },
+    {
+      "id": "inventory.048",
+      "line": 2214,
+      "en": "None",
+      "ko": "없음"
+    },
+    {
+      "id": "inventory.049",
+      "line": 2234,
+      "en": "Leave the wagon",
+      "ko": "마차에서 내리기"
+    },
+    {
+      "id": "inventory.050",
+      "line": 2234,
+      "en": "Open the wagon",
+      "ko": "마차 열기"
+    },
+    {
+      "id": "inventory.051",
+      "line": 2043,
+      "en": "Your character, as the Morrowind body wears it",
+      "ko": "착용 장비가 표시된 캐릭터"
+    }
+  ]
+}
