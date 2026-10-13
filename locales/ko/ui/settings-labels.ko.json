@@ -1,0 +1,1204 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/settingsCopy.js",
+  "source_sha": "8cad754c7cef1533c6d2fbee240e5db3132e4b0e",
+  "entries": [
+    {
+      "id": "settings.001",
+      "key": "Audio/AlternateMusic",
+      "en": "Alternate Music",
+      "ko": "대체 배경음악",
+      "line": 22
+    },
+    {
+      "id": "settings.002",
+      "key": "Audio/SoundFont",
+      "en": "Music Instrument Set",
+      "ko": "음악 악기 음색",
+      "line": 23
+    },
+    {
+      "id": "settings.003",
+      "key": "ChildGuard/PlayerNudity",
+      "en": "Show Nudity",
+      "ko": "노출 표시",
+      "line": 24
+    },
+    {
+      "id": "settings.004",
+      "key": "Controls/AllowMagicRepairs",
+      "en": "Repair Magic Items",
+      "ko": "마법 아이템 수리 허용",
+      "line": 25
+    },
+    {
+      "id": "settings.005",
+      "key": "Controls/BowDrawback",
+      "en": "Draw And Release Bows",
+      "ko": "활 시위 당겼다 놓아 발사",
+      "line": 26
+    },
+    {
+      "id": "settings.006",
+      "key": "Controls/CameraRecoilStrength",
+      "en": "Screen Shake On Damage",
+      "ko": "피격 화면 흔들림",
+      "line": 27
+    },
+    {
+      "id": "settings.007",
+      "key": "Controls/EnableController",
+      "en": "Game Controller",
+      "ko": "게임패드 사용",
+      "line": 28
+    },
+    {
+      "id": "settings.008",
+      "key": "Controls/Handedness",
+      "en": "Weapon Hand",
+      "ko": "무기 사용 손",
+      "line": 29
+    },
+    {
+      "id": "settings.009",
+      "key": "Controls/HeadBobbing",
+      "en": "Head Bobbing",
+      "ko": "이동 시 시점 흔들림",
+      "line": 30
+    },
+    {
+      "id": "settings.010",
+      "key": "Controls/InstantRepairs",
+      "en": "Instant Repairs",
+      "ko": "즉시 수리",
+      "line": 31
+    },
+    {
+      "id": "settings.011",
+      "key": "Controls/InvertMouseVertical",
+      "en": "Invert Look Up/Down",
+      "ko": "상하 시점 반전",
+      "line": 32
+    },
+    {
+      "id": "settings.012",
+      "key": "Controls/JoystickCursorSensitivity",
+      "en": "Gamepad Cursor Speed",
+      "ko": "게임패드 커서 속도",
+      "line": 33
+    },
+    {
+      "id": "settings.013",
+      "key": "Controls/JoystickDeadzone",
+      "en": "Gamepad Stick Deadzone",
+      "ko": "게임패드 스틱 데드존",
+      "line": 34
+    },
+    {
+      "id": "settings.014",
+      "key": "Controls/JoystickLookSensitivity",
+      "en": "Gamepad Look Speed",
+      "ko": "게임패드 시점 회전 속도",
+      "line": 35
+    },
+    {
+      "id": "settings.015",
+      "key": "Controls/JoystickMovementThreshold",
+      "en": "Gamepad Movement Threshold",
+      "ko": "게임패드 이동 입력 임계값",
+      "line": 36
+    },
+    {
+      "id": "settings.016",
+      "key": "Controls/MouseLookSensitivity",
+      "en": "Mouse Sensitivity",
+      "ko": "마우스 감도",
+      "line": 37
+    },
+    {
+      "id": "settings.017",
+      "key": "Controls/MouseLookSmoothingFactor",
+      "en": "Look Smoothing",
+      "ko": "시점 이동 부드럽게",
+      "line": 38
+    },
+    {
+      "id": "settings.018",
+      "key": "Controls/MovementAcceleration",
+      "en": "Gradual Start And Stop",
+      "ko": "이동 가속 및 감속",
+      "line": 39
+    },
+    {
+      "id": "settings.019",
+      "key": "Controls/MusicVolume",
+      "en": "Music Volume",
+      "ko": "음악 음량",
+      "line": 40
+    },
+    {
+      "id": "settings.020",
+      "key": "Controls/SoundVolume",
+      "en": "Sound Volume",
+      "ko": "효과음 음량",
+      "line": 41
+    },
+    {
+      "id": "settings.021",
+      "key": "Controls/ToggleSneak",
+      "en": "Sneak Stays On",
+      "ko": "은신 상태 전환",
+      "line": 42
+    },
+    {
+      "id": "settings.022",
+      "key": "Controls/WeaponAttackThreshold",
+      "en": "Swing Travel Needed",
+      "ko": "무기 휘두르기 최소 이동 거리",
+      "line": 43
+    },
+    {
+      "id": "settings.023",
+      "key": "Controls/WeaponSensitivity",
+      "en": "Swing Sensitivity",
+      "ko": "무기 휘두르기 감도",
+      "line": 44
+    },
+    {
+      "id": "settings.024",
+      "key": "Controls/WeaponSwingMode",
+      "en": "Weapon Swing Style",
+      "ko": "무기 공격 방식",
+      "line": 45
+    },
+    {
+      "id": "settings.025",
+      "key": "Daggerfall/MyDaggerfallPath",
+      "en": "Daggerfall Folder",
+      "ko": "대거폴 데이터 폴더",
+      "line": 46
+    },
+    {
+      "id": "settings.026",
+      "key": "Daggerfall/MyDaggerfallUnitySavePath",
+      "en": "Save Folder",
+      "ko": "저장 파일 폴더",
+      "line": 47
+    },
+    {
+      "id": "settings.027",
+      "key": "Daggerfall/MyDaggerfallUnityScreenshotsPath",
+      "en": "Screenshot Folder",
+      "ko": "스크린샷 폴더",
+      "line": 48
+    },
+    {
+      "id": "settings.028",
+      "key": "Effects/AmbientOcclusionEnable",
+      "en": "Corner Shading",
+      "ko": "주변광 차폐",
+      "line": 49
+    },
+    {
+      "id": "settings.029",
+      "key": "Effects/AmbientOcclusionIntensity",
+      "en": "Corner Shading Strength",
+      "ko": "주변광 차폐 강도",
+      "line": 50
+    },
+    {
+      "id": "settings.030",
+      "key": "Effects/AmbientOcclusionMethod",
+      "en": "Corner Shading Method",
+      "ko": "주변광 차폐 방식",
+      "line": 51
+    },
+    {
+      "id": "settings.031",
+      "key": "Effects/AmbientOcclusionQuality",
+      "en": "Corner Shading Quality",
+      "ko": "주변광 차폐 품질",
+      "line": 52
+    },
+    {
+      "id": "settings.032",
+      "key": "Effects/AmbientOcclusionRadius",
+      "en": "Corner Shading Radius",
+      "ko": "주변광 차폐 반경",
+      "line": 53
+    },
+    {
+      "id": "settings.033",
+      "key": "Effects/AmbientOcclusionThickness",
+      "en": "Corner Shading Thickness",
+      "ko": "주변광 차폐 두께",
+      "line": 54
+    },
+    {
+      "id": "settings.034",
+      "key": "Effects/AntialiasingFXAAFastMode",
+      "en": "Edge Smoothing Fast Mode",
+      "ko": "빠른 FXAA 모드",
+      "line": 55
+    },
+    {
+      "id": "settings.035",
+      "key": "Effects/AntialiasingMethod",
+      "en": "Edge Smoothing",
+      "ko": "계단 현상 완화 방식",
+      "line": 56
+    },
+    {
+      "id": "settings.036",
+      "key": "Effects/AntialiasingSMAAQuality",
+      "en": "Edge Smoothing Quality",
+      "ko": "SMAA 품질",
+      "line": 57
+    },
+    {
+      "id": "settings.037",
+      "key": "Effects/AntialiasingTAASharpness",
+      "en": "Edge Smoothing Sharpness",
+      "ko": "TAA 선명도",
+      "line": 58
+    },
+    {
+      "id": "settings.038",
+      "key": "Effects/BloomDiffusion",
+      "en": "Glow Spread",
+      "ko": "광원 번짐 범위",
+      "line": 59
+    },
+    {
+      "id": "settings.039",
+      "key": "Effects/BloomEnable",
+      "en": "Glow",
+      "ko": "블룸 효과",
+      "line": 60
+    },
+    {
+      "id": "settings.040",
+      "key": "Effects/BloomFastMode",
+      "en": "Glow Fast Mode",
+      "ko": "빠른 블룸 모드",
+      "line": 61
+    },
+    {
+      "id": "settings.041",
+      "key": "Effects/BloomIntensity",
+      "en": "Glow Strength",
+      "ko": "블룸 강도",
+      "line": 62
+    },
+    {
+      "id": "settings.042",
+      "key": "Effects/BloomThreshold",
+      "en": "Glow Threshold",
+      "ko": "블룸 발동 임계값",
+      "line": 63
+    },
+    {
+      "id": "settings.043",
+      "key": "Effects/ColorBoostDungeonFalloff",
+      "en": "Colour Boost Falloff",
+      "ko": "던전 색상 강화 감소율",
+      "line": 64
+    },
+    {
+      "id": "settings.044",
+      "key": "Effects/ColorBoostDungeonScale",
+      "en": "Colour Boost Dungeons",
+      "ko": "던전 색상 강화",
+      "line": 65
+    },
+    {
+      "id": "settings.045",
+      "key": "Effects/ColorBoostEnable",
+      "en": "Colour Boost",
+      "ko": "색상 강화",
+      "line": 66
+    },
+    {
+      "id": "settings.046",
+      "key": "Effects/ColorBoostExteriorScale",
+      "en": "Colour Boost Outdoors",
+      "ko": "야외 색상 강화",
+      "line": 67
+    },
+    {
+      "id": "settings.047",
+      "key": "Effects/ColorBoostIntensity",
+      "en": "Colour Boost Strength",
+      "ko": "색상 강화 강도",
+      "line": 68
+    },
+    {
+      "id": "settings.048",
+      "key": "Effects/ColorBoostInteriorScale",
+      "en": "Colour Boost Indoors",
+      "ko": "실내 색상 강화",
+      "line": 69
+    },
+    {
+      "id": "settings.049",
+      "key": "Effects/ColorBoostRadius",
+      "en": "Colour Boost Radius",
+      "ko": "색상 강화 반경",
+      "line": 70
+    },
+    {
+      "id": "settings.050",
+      "key": "Effects/DepthOfFieldAperture",
+      "en": "Aperture",
+      "ko": "조리개",
+      "line": 71
+    },
+    {
+      "id": "settings.051",
+      "key": "Effects/DepthOfFieldEnable",
+      "en": "Depth Of Field",
+      "ko": "피사계 심도",
+      "line": 72
+    },
+    {
+      "id": "settings.052",
+      "key": "Effects/DepthOfFieldFocalLength",
+      "en": "Focal Length",
+      "ko": "초점거리",
+      "line": 73
+    },
+    {
+      "id": "settings.053",
+      "key": "Effects/DepthOfFieldFocusDistance",
+      "en": "Focus Distance",
+      "ko": "초점 맞춤 거리",
+      "line": 74
+    },
+    {
+      "id": "settings.054",
+      "key": "Effects/DepthOfFieldMaxBlurSize",
+      "en": "Maximum Blur",
+      "ko": "최대 흐림 정도",
+      "line": 75
+    },
+    {
+      "id": "settings.055",
+      "key": "Effects/DitherEnable",
+      "en": "Dithering",
+      "ko": "디더링",
+      "line": 76
+    },
+    {
+      "id": "settings.056",
+      "key": "Effects/MotionBlurEnable",
+      "en": "Motion Blur",
+      "ko": "모션 블러",
+      "line": 77
+    },
+    {
+      "id": "settings.057",
+      "key": "Effects/MotionBlurSampleCount",
+      "en": "Motion Blur Samples",
+      "ko": "모션 블러 샘플 수",
+      "line": 78
+    },
+    {
+      "id": "settings.058",
+      "key": "Effects/MotionBlurShutterAngle",
+      "en": "Motion Blur Amount",
+      "ko": "모션 블러 강도",
+      "line": 79
+    },
+    {
+      "id": "settings.059",
+      "key": "Effects/VignetteEnable",
+      "en": "Darkened Edges",
+      "ko": "화면 가장자리 어둡게",
+      "line": 80
+    },
+    {
+      "id": "settings.060",
+      "key": "Effects/VignetteIntensity",
+      "en": "Darkened Edge Strength",
+      "ko": "가장자리 어둡게 강도",
+      "line": 81
+    },
+    {
+      "id": "settings.061",
+      "key": "Effects/VignetteRounded",
+      "en": "Round Darkened Edges",
+      "ko": "둥근 비네팅",
+      "line": 82
+    },
+    {
+      "id": "settings.062",
+      "key": "Effects/VignetteRoundness",
+      "en": "Darkened Edge Shape",
+      "ko": "비네팅 형태",
+      "line": 83
+    },
+    {
+      "id": "settings.063",
+      "key": "Effects/VignetteSmoothness",
+      "en": "Darkened Edge Softness",
+      "ko": "비네팅 경계 부드러움",
+      "line": 84
+    },
+    {
+      "id": "settings.064",
+      "key": "Enhancements/AdvancedClimbing",
+      "en": "Advanced Climbing",
+      "ko": "고급 등반",
+      "line": 85
+    },
+    {
+      "id": "settings.065",
+      "key": "Enhancements/AlternateRandomEnemySelection",
+      "en": "Varied Dungeon Monsters",
+      "ko": "던전 몬스터 종류 다양화",
+      "line": 86
+    },
+    {
+      "id": "settings.066",
+      "key": "Enhancements/AssetInjection",
+      "en": "Replace Game Artwork",
+      "ko": "게임 그래픽 리소스 교체",
+      "line": 87
+    },
+    {
+      "id": "settings.067",
+      "key": "Enhancements/BowLeftHandWithSwitching",
+      "en": "Bows In Left Hand",
+      "ko": "활을 왼손에 들기",
+      "line": 88
+    },
+    {
+      "id": "settings.068",
+      "key": "Enhancements/CombatVoices",
+      "en": "Combat Voices",
+      "ko": "전투 음성",
+      "line": 89
+    },
+    {
+      "id": "settings.069",
+      "key": "Enhancements/CompressModdedTextures",
+      "en": "Compress Mod Textures",
+      "ko": "모드 텍스처 압축",
+      "line": 90
+    },
+    {
+      "id": "settings.070",
+      "key": "Enhancements/DungeonAmbientLightScale",
+      "en": "Dungeon Brightness",
+      "ko": "던전 밝기",
+      "line": 91
+    },
+    {
+      "id": "settings.071",
+      "key": "Enhancements/EnemyInfighting",
+      "en": "Enemies Fight Each Other",
+      "ko": "적끼리 싸우기",
+      "line": 92
+    },
+    {
+      "id": "settings.072",
+      "key": "Enhancements/EnhancedCombatAI",
+      "en": "Smarter Enemies",
+      "ko": "향상된 적 인공지능",
+      "line": 93
+    },
+    {
+      "id": "settings.073",
+      "key": "Enhancements/GuildQuestListBox",
+      "en": "Choose Guild Jobs",
+      "ko": "길드 의뢰 직접 선택",
+      "line": 94
+    },
+    {
+      "id": "settings.074",
+      "key": "Enhancements/LoiterLimitInHours",
+      "en": "Maximum Wait Time",
+      "ko": "최대 대기 시간",
+      "line": 95
+    },
+    {
+      "id": "settings.075",
+      "key": "Enhancements/LypyL_GameConsole",
+      "en": "Developer Console",
+      "ko": "개발자 콘솔",
+      "line": 96
+    },
+    {
+      "id": "settings.076",
+      "key": "Enhancements/LypyL_ModSystem",
+      "en": "Mod Support",
+      "ko": "모드 지원",
+      "line": 97
+    },
+    {
+      "id": "settings.077",
+      "key": "Enhancements/NearDeathWarning",
+      "en": "Near Death Warning",
+      "ko": "빈사 상태 경고",
+      "line": 98
+    },
+    {
+      "id": "settings.078",
+      "key": "Enhancements/NightAmbientLightScale",
+      "en": "Night Brightness",
+      "ko": "밤 밝기",
+      "line": 99
+    },
+    {
+      "id": "settings.079",
+      "key": "Enhancements/PlayerTorchFromItems",
+      "en": "Torches Light Your Way",
+      "ko": "소지한 횃불로 조명",
+      "line": 100
+    },
+    {
+      "id": "settings.080",
+      "key": "Enhancements/PlayerTorchLightScale",
+      "en": "Torch Brightness",
+      "ko": "횃불 밝기",
+      "line": 101
+    },
+    {
+      "id": "settings.081",
+      "key": "Experimental/AssetCacheThreshold",
+      "en": "Asset Cache Size",
+      "ko": "리소스 캐시 크기",
+      "line": 102
+    },
+    {
+      "id": "settings.082",
+      "key": "Experimental/CustomBooksImport",
+      "en": "Add Your Own Books",
+      "ko": "사용자 서적 추가",
+      "line": 103
+    },
+    {
+      "id": "settings.083",
+      "key": "Experimental/SmallerDungeons",
+      "en": "Smaller Dungeons",
+      "ko": "작은 던전",
+      "line": 104
+    },
+    {
+      "id": "settings.084",
+      "key": "Experimental/TerrainDistance",
+      "en": "Land View Distance",
+      "ko": "지형 표시 거리",
+      "line": 105
+    },
+    {
+      "id": "settings.085",
+      "key": "Experimental/TerrainHeightmapPixelError",
+      "en": "Land Detail Error",
+      "ko": "지형 정밀도 허용 오차",
+      "line": 106
+    },
+    {
+      "id": "settings.086",
+      "key": "GUI/AccelerateUICopyTexture",
+      "en": "Faster Menu Textures",
+      "ko": "메뉴 텍스처 처리 가속",
+      "line": 107
+    },
+    {
+      "id": "settings.087",
+      "key": "GUI/CanDropQuestItems",
+      "en": "Drop Quest Items",
+      "ko": "퀘스트 아이템 버리기",
+      "line": 108
+    },
+    {
+      "id": "settings.088",
+      "key": "GUI/Crosshair",
+      "en": "Crosshair",
+      "ko": "조준점",
+      "line": 109
+    },
+    {
+      "id": "settings.089",
+      "key": "GUI/DimAlphaStrength",
+      "en": "Dimming Strength",
+      "ko": "화면 어둡게 강도",
+      "line": 110
+    },
+    {
+      "id": "settings.090",
+      "key": "GUI/DisableEnemyDeathAlert",
+      "en": "Silence Death Alerts",
+      "ko": "적 사망 알림 끄기",
+      "line": 111
+    },
+    {
+      "id": "settings.091",
+      "key": "GUI/DungeonExitWagonPrompt",
+      "en": "Wagon Prompt At Exits",
+      "ko": "던전 출구 마차 안내",
+      "line": 112
+    },
+    {
+      "id": "settings.092",
+      "key": "GUI/EnableArrowCounter",
+      "en": "Arrow Counter",
+      "ko": "화살 개수 표시",
+      "line": 113
+    },
+    {
+      "id": "settings.093",
+      "key": "GUI/EnableEnhancedItemLists",
+      "en": "Enhanced Item Lists",
+      "ko": "향상된 아이템 목록",
+      "line": 114
+    },
+    {
+      "id": "settings.094",
+      "key": "GUI/EnableGeographicBackgrounds",
+      "en": "Map Backgrounds",
+      "ko": "지도 배경",
+      "line": 115
+    },
+    {
+      "id": "settings.095",
+      "key": "GUI/EnableInventoryInfoPanel",
+      "en": "Inventory Info Panel",
+      "ko": "소지품 정보 패널",
+      "line": 116
+    },
+    {
+      "id": "settings.096",
+      "key": "GUI/EnableModernConversationStyleInTalkWindow",
+      "en": "Modern Talk Layout",
+      "ko": "현대식 대화창",
+      "line": 117
+    },
+    {
+      "id": "settings.097",
+      "key": "GUI/EnableQuestDebugger",
+      "en": "Quest Debugger",
+      "ko": "퀘스트 디버거",
+      "line": 118
+    },
+    {
+      "id": "settings.098",
+      "key": "GUI/EnableToolTips",
+      "en": "Tooltips",
+      "ko": "도움말 표시",
+      "line": 119
+    },
+    {
+      "id": "settings.099",
+      "key": "GUI/EnableVitalsIndicators",
+      "en": "Health And Fatigue Bars",
+      "ko": "생명력 및 피로도 막대",
+      "line": 120
+    },
+    {
+      "id": "settings.100",
+      "key": "GUI/GUIFilterMode",
+      "en": "Menu Texture Filter",
+      "ko": "메뉴 텍스처 필터",
+      "line": 121
+    },
+    {
+      "id": "settings.101",
+      "key": "GUI/HelmAndShieldMaterialDisplay",
+      "en": "Helm And Shield Metal",
+      "ko": "투구와 방패의 재질 표시",
+      "line": 122
+    },
+    {
+      "id": "settings.102",
+      "key": "GUI/HideLoginName",
+      "en": "Hide Login Name",
+      "ko": "로그인 이름 숨기기",
+      "line": 123
+    },
+    {
+      "id": "settings.103",
+      "key": "GUI/IconsPositioningScheme",
+      "en": "Spell Icon Layout",
+      "ko": "주문 아이콘 배치",
+      "line": 124
+    },
+    {
+      "id": "settings.104",
+      "key": "GUI/IllegalRestWarning",
+      "en": "Illegal Rest Warning",
+      "ko": "불법 휴식 경고",
+      "line": 125
+    },
+    {
+      "id": "settings.105",
+      "key": "GUI/InteractionModeIcon",
+      "en": "Interaction Icon",
+      "ko": "상호작용 모드 아이콘",
+      "line": 126
+    },
+    {
+      "id": "settings.106",
+      "key": "GUI/LargeHUD",
+      "en": "Large Status Bar",
+      "ko": "큰 상태 표시줄",
+      "line": 127
+    },
+    {
+      "id": "settings.107",
+      "key": "GUI/LargeHUDDocked",
+      "en": "Dock Large Status Bar",
+      "ko": "큰 상태 표시줄 고정",
+      "line": 128
+    },
+    {
+      "id": "settings.108",
+      "key": "GUI/LargeHUDOffsetHorse",
+      "en": "Keep Bar Clear Of Horse",
+      "ko": "상태 표시줄과 말 겹침 방지",
+      "line": 129
+    },
+    {
+      "id": "settings.109",
+      "key": "GUI/LargeHUDUndockedAlignment",
+      "en": "Large Status Bar Side",
+      "ko": "큰 상태 표시줄 정렬",
+      "line": 130
+    },
+    {
+      "id": "settings.110",
+      "key": "GUI/LargeHUDUndockedOffsetWeapon",
+      "en": "Keep Bar Clear Of Weapon",
+      "ko": "상태 표시줄과 무기 겹침 방지",
+      "line": 131
+    },
+    {
+      "id": "settings.111",
+      "key": "GUI/LargeHUDUndockedScale",
+      "en": "Large Status Bar Size",
+      "ko": "큰 상태 표시줄 크기",
+      "line": 132
+    },
+    {
+      "id": "settings.112",
+      "key": "GUI/QuestRumorWeight",
+      "en": "Quest Rumour Weight",
+      "ko": "퀘스트 소문 발생 비중",
+      "line": 133
+    },
+    {
+      "id": "settings.113",
+      "key": "GUI/SDFFontRendering",
+      "en": "Smooth Fonts",
+      "ko": "부드러운 글꼴 렌더링",
+      "line": 134
+    },
+    {
+      "id": "settings.114",
+      "key": "GUI/ShopQualityHUDDelay",
+      "en": "Shop Quality Delay",
+      "ko": "상점 품질 표시 지연",
+      "line": 135
+    },
+    {
+      "id": "settings.115",
+      "key": "GUI/ShopQualityPresentation",
+      "en": "Shop Quality Text",
+      "ko": "상점 품질 표시 방식",
+      "line": 136
+    },
+    {
+      "id": "settings.116",
+      "key": "GUI/ShowOptionsAtStart",
+      "en": "Show Settings At Startup",
+      "ko": "시작할 때 설정 표시",
+      "line": 137
+    },
+    {
+      "id": "settings.117",
+      "key": "GUI/ShowQuestJournalClocksAsCountdown",
+      "en": "Journal Countdowns",
+      "ko": "퀘스트 일지 남은 시간 표시",
+      "line": 138
+    },
+    {
+      "id": "settings.118",
+      "key": "GUI/SwapHealthAndFatigueColors",
+      "en": "Swap Bar Colours",
+      "ko": "생명력·피로도 색상 바꾸기",
+      "line": 139
+    },
+    {
+      "id": "settings.119",
+      "key": "GUI/ToolTipBackgroundColor",
+      "en": "Tooltip Background",
+      "ko": "도움말 배경색",
+      "line": 140
+    },
+    {
+      "id": "settings.120",
+      "key": "GUI/ToolTipDelayInSeconds",
+      "en": "Tooltip Delay",
+      "ko": "도움말 표시 지연",
+      "line": 141
+    },
+    {
+      "id": "settings.121",
+      "key": "GUI/ToolTipTextColor",
+      "en": "Tooltip Text Colour",
+      "ko": "도움말 글자색",
+      "line": 142
+    },
+    {
+      "id": "settings.122",
+      "key": "GUI/TravelMapLocationsOutline",
+      "en": "Outline Map Locations",
+      "ko": "여행 지도 위치 윤곽선",
+      "line": 143
+    },
+    {
+      "id": "settings.123",
+      "key": "GUI/VideoFilterMode",
+      "en": "Video Texture Filter",
+      "ko": "영상 텍스처 필터",
+      "line": 144
+    },
+    {
+      "id": "settings.124",
+      "key": "Map/AutomapAlwaysMaxOutSliceLevel",
+      "en": "Always Full Map Slice",
+      "ko": "지도 층 전체 표시",
+      "line": 145
+    },
+    {
+      "id": "settings.125",
+      "key": "Map/AutomapDisableMicroMap",
+      "en": "Hide Dungeon Micro-Map",
+      "ko": "던전 미니맵 숨기기",
+      "line": 146
+    },
+    {
+      "id": "settings.126",
+      "key": "Map/AutomapHouseColor",
+      "en": "House Colour",
+      "ko": "주택 표시 색상",
+      "line": 147
+    },
+    {
+      "id": "settings.127",
+      "key": "Map/AutomapNumberOfDungeons",
+      "en": "Dungeon Maps Remembered",
+      "ko": "기억할 던전 지도 수",
+      "line": 148
+    },
+    {
+      "id": "settings.128",
+      "key": "Map/AutomapRememberSliceLevel",
+      "en": "Remember Map Slice",
+      "ko": "지도 층 기억",
+      "line": 149
+    },
+    {
+      "id": "settings.129",
+      "key": "Map/AutomapShopColor",
+      "en": "Shop Colour",
+      "ko": "상점 표시 색상",
+      "line": 150
+    },
+    {
+      "id": "settings.130",
+      "key": "Map/AutomapTavernColor",
+      "en": "Tavern Colour",
+      "ko": "선술집 표시 색상",
+      "line": 151
+    },
+    {
+      "id": "settings.131",
+      "key": "Map/AutomapTempleColor",
+      "en": "Temple Colour",
+      "ko": "사원 표시 색상",
+      "line": 152
+    },
+    {
+      "id": "settings.132",
+      "key": "Map/DunMicMapBorderColor",
+      "en": "Micro-Map Edge Colour",
+      "ko": "미니맵 테두리 색상",
+      "line": 153
+    },
+    {
+      "id": "settings.133",
+      "key": "Map/DunMicMapInnerColor",
+      "en": "Micro-Map Fill Colour",
+      "ko": "미니맵 내부 색상",
+      "line": 154
+    },
+    {
+      "id": "settings.134",
+      "key": "Map/DungeonMicMapQoL",
+      "en": "Improved Micro-Map",
+      "ko": "개선된 던전 미니맵",
+      "line": 155
+    },
+    {
+      "id": "settings.135",
+      "key": "Map/ExteriorMapDefaultZoomLevel",
+      "en": "Town Map Zoom",
+      "ko": "마을 지도 기본 확대율",
+      "line": 156
+    },
+    {
+      "id": "settings.136",
+      "key": "Map/ExteriorMapResetZoomLevelOnNewLocation",
+      "en": "Reset Town Map Zoom",
+      "ko": "지역 변경 시 지도 확대율 초기화",
+      "line": 157
+    },
+    {
+      "id": "settings.137",
+      "key": "MeleeAttacks/MeleeAttackDetection",
+      "en": "Hit Detection",
+      "ko": "근접 공격 명중 판정",
+      "line": 158
+    },
+    {
+      "id": "settings.138",
+      "key": "MeleeAttacks/MeleeAttackFriendlyProtection",
+      "en": "Protect Bystanders",
+      "ko": "비전투원 보호",
+      "line": 159
+    },
+    {
+      "id": "settings.139",
+      "key": "Spells/EnableSpellLighting",
+      "en": "Spell Lighting",
+      "ko": "주문 광원 효과",
+      "line": 160
+    },
+    {
+      "id": "settings.140",
+      "key": "Spells/EnableSpellShadows",
+      "en": "Spell Shadows",
+      "ko": "주문 그림자",
+      "line": 161
+    },
+    {
+      "id": "settings.141",
+      "key": "Startup/StartCellX",
+      "en": "Start Map Square X",
+      "ko": "시작 지도 좌표 X",
+      "line": 162
+    },
+    {
+      "id": "settings.142",
+      "key": "Startup/StartCellY",
+      "en": "Start Map Square Y",
+      "ko": "시작 지도 좌표 Y",
+      "line": 163
+    },
+    {
+      "id": "settings.143",
+      "key": "Startup/StartInDungeon",
+      "en": "Start In The Dungeon",
+      "ko": "던전에서 시작",
+      "line": 164
+    },
+    {
+      "id": "settings.144",
+      "key": "Video/AmbientLitInteriors",
+      "en": "Lit Interiors",
+      "ko": "실내 주변광",
+      "line": 165
+    },
+    {
+      "id": "settings.145",
+      "key": "Video/DungeonLightShadows",
+      "en": "Dungeon Light Shadows",
+      "ko": "던전 광원 그림자",
+      "line": 166
+    },
+    {
+      "id": "settings.146",
+      "key": "Video/DungeonShadowDistance",
+      "en": "Dungeon Shadow Range",
+      "ko": "던전 그림자 거리",
+      "line": 167
+    },
+    {
+      "id": "settings.147",
+      "key": "Video/EnableTextureArrays",
+      "en": "Texture Arrays",
+      "ko": "텍스처 배열",
+      "line": 168
+    },
+    {
+      "id": "settings.148",
+      "key": "Video/ExclusiveFullscreen",
+      "en": "Exclusive Fullscreen",
+      "ko": "독점 전체 화면",
+      "line": 169
+    },
+    {
+      "id": "settings.149",
+      "key": "Video/ExteriorLightShadows",
+      "en": "Outdoor Light Shadows",
+      "ko": "야외 광원 그림자",
+      "line": 170
+    },
+    {
+      "id": "settings.150",
+      "key": "Video/ExteriorShadowDistance",
+      "en": "Outdoor Shadow Range",
+      "ko": "야외 그림자 거리",
+      "line": 171
+    },
+    {
+      "id": "settings.151",
+      "key": "Video/FieldOfView",
+      "en": "Field Of View",
+      "ko": "시야각",
+      "line": 172
+    },
+    {
+      "id": "settings.152",
+      "key": "Video/Fullscreen",
+      "en": "Fullscreen",
+      "ko": "전체 화면",
+      "line": 173
+    },
+    {
+      "id": "settings.153",
+      "key": "Video/GeneralBillboardShadows",
+      "en": "Object Shadows",
+      "ko": "오브젝트 그림자",
+      "line": 174
+    },
+    {
+      "id": "settings.154",
+      "key": "Video/InteriorLightShadows",
+      "en": "Indoor Light Shadows",
+      "ko": "실내 광원 그림자",
+      "line": 175
+    },
+    {
+      "id": "settings.155",
+      "key": "Video/InteriorShadowDistance",
+      "en": "Indoor Shadow Range",
+      "ko": "실내 그림자 거리",
+      "line": 176
+    },
+    {
+      "id": "settings.156",
+      "key": "Video/MainFilterMode",
+      "en": "World Texture Filter",
+      "ko": "월드 텍스처 필터",
+      "line": 177
+    },
+    {
+      "id": "settings.157",
+      "key": "Video/MobileNPCShadows",
+      "en": "Townsfolk Shadows",
+      "ko": "마을 주민 그림자",
+      "line": 178
+    },
+    {
+      "id": "settings.158",
+      "key": "Video/NatureBillboardShadows",
+      "en": "Tree And Plant Shadows",
+      "ko": "나무와 식물 그림자",
+      "line": 179
+    },
+    {
+      "id": "settings.159",
+      "key": "Video/PalettizationLUTShift",
+      "en": "Retro Palette Shift",
+      "ko": "레트로 팔레트 이동",
+      "line": 180
+    },
+    {
+      "id": "settings.160",
+      "key": "Video/PostProcessingInRetroMode",
+      "en": "Retro Picture Effects",
+      "ko": "레트로 모드 후처리",
+      "line": 181
+    },
+    {
+      "id": "settings.161",
+      "key": "Video/QualityLevel",
+      "en": "Detail Level",
+      "ko": "그래픽 품질",
+      "line": 182
+    },
+    {
+      "id": "settings.162",
+      "key": "Video/RandomDungeonTextures",
+      "en": "Dungeon Wall Style",
+      "ko": "던전 벽 무늬",
+      "line": 183
+    },
+    {
+      "id": "settings.163",
+      "key": "Video/ResolutionHeight",
+      "en": "Screen Height",
+      "ko": "화면 높이",
+      "line": 184
+    },
+    {
+      "id": "settings.164",
+      "key": "Video/ResolutionWidth",
+      "en": "Screen Width",
+      "ko": "화면 너비",
+      "line": 185
+    },
+    {
+      "id": "settings.165",
+      "key": "Video/RetroModeAspectCorrection",
+      "en": "Retro Aspect",
+      "ko": "레트로 화면 비율 보정",
+      "line": 186
+    },
+    {
+      "id": "settings.166",
+      "key": "Video/RetroRenderingMode",
+      "en": "Retro Picture Mode",
+      "ko": "레트로 렌더링 모드",
+      "line": 187
+    },
+    {
+      "id": "settings.167",
+      "key": "Video/RunInBackground",
+      "en": "Keep Running In Background",
+      "ko": "백그라운드에서 계속 실행",
+      "line": 188
+    },
+    {
+      "id": "settings.168",
+      "key": "Video/ShadowResolutionMode",
+      "en": "Shadow Sharpness",
+      "ko": "그림자 선명도",
+      "line": 189
+    },
+    {
+      "id": "settings.169",
+      "key": "Video/TargetFrameRate",
+      "en": "Frame Rate Cap",
+      "ko": "프레임 제한",
+      "line": 190
+    },
+    {
+      "id": "settings.170",
+      "key": "Video/UseMipMapsInRetroMode",
+      "en": "Retro Mip Maps",
+      "ko": "레트로 모드 밉맵 사용",
+      "line": 191
+    },
+    {
+      "id": "settings.171",
+      "key": "Video/VSync",
+      "en": "Wait For Screen Refresh",
+      "ko": "화면 새로 고침 동기화",
+      "line": 192
+    }
+  ]
+}
