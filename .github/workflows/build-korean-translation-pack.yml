@@ -2,6 +2,11 @@ name: Build Korean translation pack
 
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - locales/ko/Port_Strings.csv
+      - tools/ko/build_online_korean_pack.py
+      - .github/workflows/build-korean-translation-pack.yml
   push:
     branches:
       - main
