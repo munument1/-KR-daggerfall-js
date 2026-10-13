@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a Daggerfall Online Korean translation pack from the DFU Korean patch.
 
-Requires Python 3.9+. Only uses the standard library.
+Requires Python 3.10+. Only uses the standard library.
 Examples:
   python tools/ko/build_online_korean_pack.py --dfu-path ../-KR-Daggerfall_Unity
   python tools/ko/build_online_korean_pack.py --dfu-path Daggerfall_Unity_Korean.zip
