@@ -1,0 +1,63 @@
+name: Build Korean translation pack
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - ko-online-qa-20261014
+    paths:
+      - locales/ko/Port_Strings.csv
+      - tools/ko/build_online_korean_pack.py
+      - .github/workflows/build-korean-translation-pack.yml
+
+permissions:
+  contents: read
+
+jobs:
+  build-korean-pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out DFO Korean source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          sparse-checkout: |
+            locales/ko
+            locales/en
+            tools/ko
+
+      - name: Check out Daggerfall Unity Korean patch
+        uses: actions/checkout@v4
+        with:
+          repository: munument1/-KR-Daggerfall_Unity
+          path: _dfu-korean
+          persist-credentials: false
+          fetch-depth: 1
+
+      - name: Assemble Korean translation pack
+        run: |
+          python3 tools/ko/build_online_korean_pack.py \
+            --dfu-path _dfu-korean \
+            --output Daggerfall_Online_Korean_Combined.zip
+
+      - name: Verify archive structure
+        run: |
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('Daggerfall_Online_Korean_Combined.zip') as z:
+              entries = set(z.namelist())
+              assert 'Text/Port_Strings.csv' in entries
+              assert any(p.startswith('Text/Quests/') for p in entries)
+              assert any(p.startswith('Text/Books/') for p in entries)
+              assert any(p.startswith('Fonts/') for p in entries)
+              print('Verified translation pack:', len(entries), 'entries')
+          PY
+
+      - name: Publish downloadable test archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Daggerfall-Online-Korean-Test
+          path: Daggerfall_Online_Korean_Combined.zip
+          if-no-files-found: error
+          retention-days: 30
