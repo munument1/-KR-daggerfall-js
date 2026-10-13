@@ -1,0 +1,98 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/enhancedChargen.js",
+  "source_sha": "50a5524903a41bdc3733ab3cc131d9bf28d3ee7e",
+  "kind": "dynamic-template",
+  "entries": [
+    {
+      "id": "chargen-dynamic.001",
+      "line": 249,
+      "en": "Play as ${raceDisplayName(flow.race.key)}",
+      "ko": "이 종족으로 시작: ${raceDisplayName(flow.race.key)}"
+    },
+    {
+      "id": "chargen-dynamic.002",
+      "line": 347,
+      "en": "The answers make you a ${named}",
+      "ko": "답변 결과 선택된 직업: ${named}"
+    },
+    {
+      "id": "chargen-dynamic.003",
+      "line": 354,
+      "en": "Play as a ${named}",
+      "ko": "이 직업으로 시작: ${named}"
+    },
+    {
+      "id": "chargen-dynamic.004",
+      "line": 368,
+      "en": "Question ${Math.min(flow.qAnswered + 1, QUESTION_COUNT)} of ${QUESTION_COUNT}",
+      "ko": "질문 ${Math.min(flow.qAnswered + 1, QUESTION_COUNT)} / ${QUESTION_COUNT}"
+    },
+    {
+      "id": "chargen-dynamic.005",
+      "line": 423,
+      "en": "Play as a ${picked}",
+      "ko": "이 직업으로 시작: ${picked}"
+    },
+    {
+      "id": "chargen-dynamic.006",
+      "line": 488,
+      "en": "${labelFor(c.pickPrimary)} of what?",
+      "ko": "${labelFor(c.pickPrimary)}의 어떤 항목을 선택하시겠습니까?"
+    },
+    {
+      "id": "chargen-dynamic.007",
+      "line": 573,
+      "en": "${pts} to distribute",
+      "ko": "배분할 점수: ${pts}"
+    },
+    {
+      "id": "chargen-dynamic.008",
+      "line": 647,
+      "en": "Skill ${id}",
+      "ko": "기술 ${id}"
+    },
+    {
+      "id": "chargen-dynamic.009",
+      "line": 663,
+      "en": "${c.statPool} in hand",
+      "ko": "보유 점수: ${c.statPool}"
+    },
+    {
+      "id": "chargen-dynamic.010",
+      "line": 907,
+      "en": "Question ${flow.biogQuestionIndex + 1} of ${total}",
+      "ko": "질문 ${flow.biogQuestionIndex + 1} / ${total}"
+    },
+    {
+      "id": "chargen-dynamic.011",
+      "line": 1133,
+      "en": "${flow.statPool} left to spend",
+      "ko": "배분할 점수: ${flow.statPool}"
+    },
+    {
+      "id": "chargen-dynamic.012",
+      "line": 1159,
+      "en": "${flow.pools?.[group] ?? 0} to spend",
+      "ko": "배분할 점수: ${flow.pools?.[group] ?? 0}"
+    },
+    {
+      "id": "chargen-dynamic.013",
+      "line": 1165,
+      "en": "Skill ${id}",
+      "ko": "기술 ${id}"
+    },
+    {
+      "id": "chargen-dynamic.014",
+      "line": 1179,
+      "en": "${left} left to spend",
+      "ko": "배분할 점수: ${left}"
+    },
+    {
+      "id": "chargen-dynamic.015",
+      "line": 1383,
+      "en": "${left} left to spend",
+      "ko": "배분할 점수: ${left}"
+    }
+  ]
+}
