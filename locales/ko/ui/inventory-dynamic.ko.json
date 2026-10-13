@@ -9,12 +9,6 @@
       "line": 3621,
       "en": "${d.cards.length} cards",
       "ko": "카드 ${d.cards.length}장"
-    },
-    {
-      "id": "inventory-dynamic.002",
-      "line": 3861,
-      "en": "${model.encumbrance.now} / ${model.encumbrance.max}",
-      "ko": "${model.encumbrance.now} / ${model.encumbrance.max}"
     }
   ]
 }
