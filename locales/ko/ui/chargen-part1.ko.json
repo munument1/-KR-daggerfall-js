@@ -1,0 +1,367 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/enhancedChargen.js",
+  "source_sha": "50a5524903a41bdc3733ab3cc131d9bf28d3ee7e",
+  "entries": [
+    {
+      "id": "chargen.001",
+      "line": 71,
+      "en": "Homeland",
+      "ko": "출신지"
+    },
+    {
+      "id": "chargen.002",
+      "line": 72,
+      "en": "Sex",
+      "ko": "성별"
+    },
+    {
+      "id": "chargen.003",
+      "line": 73,
+      "en": "Class",
+      "ko": "직업"
+    },
+    {
+      "id": "chargen.004",
+      "line": 74,
+      "en": "History",
+      "ko": "과거"
+    },
+    {
+      "id": "chargen.005",
+      "line": 75,
+      "en": "Name",
+      "ko": "이름"
+    },
+    {
+      "id": "chargen.006",
+      "line": 76,
+      "en": "Face",
+      "ko": "얼굴"
+    },
+    {
+      "id": "chargen.007",
+      "line": 77,
+      "en": "Attributes",
+      "ko": "능력치"
+    },
+    {
+      "id": "chargen.008",
+      "line": 78,
+      "en": "Skills",
+      "ko": "기술"
+    },
+    {
+      "id": "chargen.009",
+      "line": 79,
+      "en": "Reflexes",
+      "ko": "반사 신경"
+    },
+    {
+      "id": "chargen.010",
+      "line": 80,
+      "en": "Review",
+      "ko": "최종 확인"
+    },
+    {
+      "id": "chargen.011",
+      "line": 125,
+      "en": "The province map needs TAMRIEL2.IMG. Choose a homeland by name instead.",
+      "ko": "지역 지도를 표시하려면 TAMRIEL2.IMG가 필요합니다. 대신 목록에서 출신지를 선택하세요."
+    },
+    {
+      "id": "chargen.012",
+      "line": 193,
+      "en": "Where are you from?",
+      "ko": "어느 지역 출신인가요?"
+    },
+    {
+      "id": "chargen.013",
+      "line": 196,
+      "en": "Your homeland sets your face, your name and how much of Tamriel greets you kindly.",
+      "ko": "출신지에 따라 외모와 이름, 탐리엘 각지에서 받는 첫인상이 결정됩니다."
+    },
+    {
+      "id": "chargen.014",
+      "line": 227,
+      "en": "Back to the map",
+      "ko": "지도로 돌아가기"
+    },
+    {
+      "id": "chargen.015",
+      "line": 254,
+      "en": "Choose again",
+      "ko": "다시 선택"
+    },
+    {
+      "id": "chargen.016",
+      "line": 282,
+      "en": "Are you a man or a woman?",
+      "ko": "성별을 선택하세요."
+    },
+    {
+      "id": "chargen.017",
+      "line": 284,
+      "en": "Man",
+      "ko": "남성"
+    },
+    {
+      "id": "chargen.018",
+      "line": 284,
+      "en": "Woman",
+      "ko": "여성"
+    },
+    {
+      "id": "chargen.019",
+      "line": 302,
+      "en": "How do you want to choose?",
+      "ko": "직업을 어떻게 선택하시겠습니까?"
+    },
+    {
+      "id": "chargen.020",
+      "line": 305,
+      "en": "Choose from a list",
+      "ko": "목록에서 선택"
+    },
+    {
+      "id": "chargen.021",
+      "line": 306,
+      "en": "The eighteen classic classes, or build your own.",
+      "ko": "기본 직업 18개 중에서 선택하거나 직접 만들 수 있습니다."
+    },
+    {
+      "id": "chargen.022",
+      "line": 309,
+      "en": "Answer ten questions",
+      "ko": "질문 열 개에 답하기"
+    },
+    {
+      "id": "chargen.023",
+      "line": 310,
+      "en": "The game picks a class from your answers.",
+      "ko": "답변에 따라 직업이 결정됩니다."
+    },
+    {
+      "id": "chargen.024",
+      "line": 403,
+      "en": "Build a class of your own",
+      "ko": "직업 직접 만들기"
+    },
+    {
+      "id": "chargen.025",
+      "line": 411,
+      "en": "Back to the list",
+      "ko": "목록으로 돌아가기"
+    },
+    {
+      "id": "chargen.026",
+      "line": 432,
+      "en": "Read what this class is before you commit to it.",
+      "ko": "선택을 확정하기 전에 직업 설명을 읽어 보세요."
+    },
+    {
+      "id": "chargen.027",
+      "line": 488,
+      "en": "Which one?",
+      "ko": "어느 것을 선택하시겠습니까?"
+    },
+    {
+      "id": "chargen.028",
+      "line": 489,
+      "en": "What do you want to know?",
+      "ko": "무엇을 알아보시겠습니까?"
+    },
+    {
+      "id": "chargen.029",
+      "line": 489,
+      "en": "Which skill?",
+      "ko": "어떤 기술을 선택하시겠습니까?"
+    },
+    {
+      "id": "chargen.030",
+      "line": 515,
+      "en": "Go on",
+      "ko": "계속"
+    },
+    {
+      "id": "chargen.031",
+      "line": 532,
+      "en": "Special advantages",
+      "ko": "특수 이점"
+    },
+    {
+      "id": "chargen.032",
+      "line": 532,
+      "en": "Special disadvantages",
+      "ko": "특수 불이익"
+    },
+    {
+      "id": "chargen.033",
+      "line": 542,
+      "en": "Press to remove",
+      "ko": "눌러서 제거"
+    },
+    {
+      "id": "chargen.034",
+      "line": 547,
+      "en": "None taken.",
+      "ko": "선택한 항목이 없습니다."
+    },
+    {
+      "id": "chargen.035",
+      "line": 550,
+      "en": "Add one",
+      "ko": "항목 추가"
+    },
+    {
+      "id": "chargen.036",
+      "line": 552,
+      "en": "Done",
+      "ko": "완료"
+    },
+    {
+      "id": "chargen.037",
+      "line": 571,
+      "en": "Reputations",
+      "ko": "평판"
+    },
+    {
+      "id": "chargen.038",
+      "line": 573,
+      "en": "balanced",
+      "ko": "균형 유지"
+    },
+    {
+      "id": "chargen.039",
+      "line": 624,
+      "en": "What is this class called?",
+      "ko": "직업 이름을 입력하세요."
+    },
+    {
+      "id": "chargen.040",
+      "line": 647,
+      "en": "Choose a skill",
+      "ko": "기술 선택"
+    },
+    {
+      "id": "chargen.041",
+      "line": 689,
+      "en": "The class itself",
+      "ko": "직업 특성"
+    },
+    {
+      "id": "chargen.042",
+      "line": 693,
+      "en": "Hit points per level",
+      "ko": "레벨당 생명력"
+    },
+    {
+      "id": "chargen.043",
+      "line": 720,
+      "en": "Create this class",
+      "ko": "이 직업 만들기"
+    },
+    {
+      "id": "chargen.044",
+      "line": 722,
+      "en": "What do these mean?",
+      "ko": "항목 설명 보기"
+    },
+    {
+      "id": "chargen.045",
+      "line": 725,
+      "en": "Export",
+      "ko": "내보내기"
+    },
+    {
+      "id": "chargen.046",
+      "line": 727,
+      "en": "Import",
+      "ko": "가져오기"
+    },
+    {
+      "id": "chargen.047",
+      "line": 764,
+      "en": "Difficulty",
+      "ko": "난이도"
+    },
+    {
+      "id": "chargen.048",
+      "line": 780,
+      "en": "weaker",
+      "ko": "약함"
+    },
+    {
+      "id": "chargen.049",
+      "line": 780,
+      "en": "stronger",
+      "ko": "강함"
+    },
+    {
+      "id": "chargen.050",
+      "line": 784,
+      "en": "The dagger is in the red: bring it back inside the band to create this class.",
+      "ko": "난이도 표시가 허용 범위를 벗어났습니다. 범위 안으로 조정해야 직업을 만들 수 있습니다."
+    },
+    {
+      "id": "chargen.051",
+      "line": 811,
+      "en": "Export this class",
+      "ko": "현재 직업 내보내기"
+    },
+    {
+      "id": "chargen.052",
+      "line": 812,
+      "en": "The name, the skills, the attributes, the special advantages and disadvantages and the reputations - everything you chose here.",
+      "ko": "설정한 직업 이름, 기술, 능력치, 특수 이점과 불이익, 평판을 모두 내보냅니다."
+    },
+    {
+      "id": "chargen.053",
+      "line": 814,
+      "en": "Copy to clipboard",
+      "ko": "클립보드에 복사"
+    },
+    {
+      "id": "chargen.054",
+      "line": 819,
+      "en": "Save as a file",
+      "ko": "파일로 저장"
+    },
+    {
+      "id": "chargen.055",
+      "line": 832,
+      "en": "Import a class",
+      "ko": "직업 가져오기"
+    },
+    {
+      "id": "chargen.056",
+      "line": 833,
+      "en": "A class exported from this screen. It replaces what is on the builder now; Create still checks it.",
+      "ko": "이 화면에서 내보낸 직업 설정을 가져옵니다. 현재 설정은 교체되며 생성 시 유효성을 다시 확인합니다."
+    },
+    {
+      "id": "chargen.057",
+      "line": 835,
+      "en": "Paste a class here",
+      "ko": "여기에 직업 설정을 붙여넣으세요."
+    },
+    {
+      "id": "chargen.058",
+      "line": 847,
+      "en": "Load",
+      "ko": "불러오기"
+    },
+    {
+      "id": "chargen.059",
+      "line": 849,
+      "en": "Paste from clipboard",
+      "ko": "클립보드에서 붙여넣기"
+    },
+    {
+      "id": "chargen.060",
+      "line": 854,
+      "en": "Open a file",
+      "ko": "파일 열기"
+    }
+  ]
+}
