@@ -11,6 +11,11 @@ const FILES = [
   'inventory.ko.json',
   'social.ko.json',
   'settings-labels.ko.json',
+  'settings-details.ko.json',
+  'chargen-dynamic.ko.json',
+  'social-dynamic.ko.json',
+  'inventory-notices.ko.json',
+  'inventory-dynamic.ko.json',
 ];
 const read = path => readFileSync(resolve(ROOT, path), 'utf8');
 const errors = [];
@@ -33,6 +38,11 @@ for (const filename of FILES) {
     if (!decoded.includes(entry.en)) errors.push(id + ': English source does not match the indicated line');
     const tok = s => [...String(s).matchAll(/\{[A-Za-z][A-Za-z0-9_]*\}/g)].map(m => m[0]).sort().join('|');
     if (tok(entry.en) !== tok(entry.ko)) errors.push(id + ': placeholder mismatch');
+    const jsExpr = s => [...String(s).matchAll(/\$\{[^{}]+\}/g)].map(m => m[0]).sort().join('|');
+    if (jsExpr(entry.en) !== jsExpr(entry.ko))
+      errors.push(id + ': dynamic JS expression mismatch');
+    if (parsed.kind === 'dynamic-template' && !jsExpr(entry.en))
+      errors.push(id + ': dynamic template missing expressions');
     if (filename === 'settings-labels.ko.json') {
       if (!entry.key) errors.push(id + ': missing immutable settings key');
       if (seenSettings.has(entry.key)) errors.push(id + ': duplicate settings key');
