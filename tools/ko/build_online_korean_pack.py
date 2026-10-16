@@ -15,11 +15,12 @@ import os
 from pathlib import Path
 import re
 import sys
+import subprocess
 import zipfile
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PORT_CSV = REPO_ROOT / "locales" / "ko" / "Port_Strings.csv"
-ENGLISH_CSV = REPO_ROOT / "locales" / "en" / "Port_Strings.csv"
+ENGLISH_CSV = REPO_ROOT / "tools" / "ko" / "reference" / "app-v0.1.8840.en.csv"
 DEFAULT_OUTPUT = Path("Daggerfall_Online_Korean_Combined.zip")
 
 
@@ -69,7 +70,7 @@ def source_files(path: Path):
 
 def read_csv_rows(data: bytes) -> dict[str, str]:
     with io.StringIO(data.decode("utf-8-sig"), newline="") as stream:
-        reader = csv.reader(stream)
+        reader = csv.reader(stream, strict=True)
         if next(reader, None) != ["Key", "Value"]:
             raise ValueError("CSV must begin with Key,Value")
         rows = {}
@@ -82,18 +83,52 @@ def read_csv_rows(data: bytes) -> dict[str, str]:
         return rows
 
 
-def build(dfu_path: Path, output: Path):
+def build(dfu_path: Path, output: Path, english_path: Path = ENGLISH_CSV,
+          preserve_existing_pack: bool = False):
     if output.exists():
         raise FileExistsError(f"Refusing to overwrite existing archive: {output}")
     if not PORT_CSV.exists() or not ENGLISH_CSV.exists():
         raise FileNotFoundError("Run this tool from a checkout containing locales/ko and locales/en")
     ko = PORT_CSV.read_bytes()
-    en_rows = read_csv_rows(ENGLISH_CSV.read_bytes())
+    en_rows = read_csv_rows(english_path.read_bytes())
     ko_rows = read_csv_rows(ko)
     missing = sorted(set(en_rows) - set(ko_rows))
     extra = sorted(set(ko_rows) - set(en_rows))
     if missing or extra:
         raise ValueError(f"Port_Strings keys differ from English: missing={len(missing)} extra={len(extra)}")
+    subprocess.run(["node", str(REPO_ROOT / "tools/ko/check_port_translations.mjs"),
+                    "--english", str(english_path.resolve()),
+                    "--korean", str(PORT_CSV)], check=True, cwd=REPO_ROOT)
+
+    if preserve_existing_pack:
+        # Keep every original member byte-for-byte; replace only the online string table.
+        with zipfile.ZipFile(dfu_path) as source:
+            names = source.namelist()
+            if len({n.casefold() for n in names}) != len(names):
+                raise ValueError("Existing pack contains duplicate paths")
+            if "Text/Port_Strings.csv" not in names:
+                raise ValueError("Existing pack lacks Text/Port_Strings.csv")
+            if not all(any(n.startswith(prefix) for n in names)
+                       for prefix in ("Fonts/", "Text/Quests/", "Text/Books/")):
+                raise ValueError("Existing combined pack lacks fonts, quests or books")
+            if source.testzip() is not None:
+                raise ValueError("Existing pack failed CRC validation")
+            output.parent.mkdir(parents=True, exist_ok=True)
+            with zipfile.ZipFile(output, "x", compression=zipfile.ZIP_DEFLATED,
+                                 compresslevel=8) as package:
+                package.comment = source.comment
+                for info in source.infolist():
+                    data = ko if info.filename == "Text/Port_Strings.csv" else source.read(info)
+                    package.writestr(info, data)
+        with zipfile.ZipFile(dfu_path) as source, zipfile.ZipFile(output) as package:
+            if source.namelist() != package.namelist() or package.testzip() is not None:
+                raise ValueError("New archive failed structure/CRC validation")
+            for name in source.namelist():
+                if name != "Text/Port_Strings.csv" and source.read(name) != package.read(name):
+                    raise ValueError(f"Original pack member changed: {name}")
+        print(f"Created: {output.resolve()}")
+        print(f"Preserved {len(names) - 1} original members; online UI keys: {len(ko_rows)}")
+        return
 
     selected = {}
     counts = {"table": 0, "quest": 0, "book": 0, "font": 0}
@@ -108,7 +143,7 @@ def build(dfu_path: Path, output: Path):
         raise ValueError(f"Unexpected source coverage; refusing incomplete package: {counts}")
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=8) as package:
+    with zipfile.ZipFile(output, "x", compression=zipfile.ZIP_DEFLATED, compresslevel=8) as package:
         for _, (name, data, _) in sorted(selected.items()):
             package.writestr(name, data)
         package.writestr("README_Online_Korean.txt",
@@ -126,9 +161,12 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--dfu-path", required=True, type=Path, help="DFU Korean patch folder or zip")
     p.add_argument("--output", default=DEFAULT_OUTPUT, type=Path, help="New output zip (must not exist)")
+    p.add_argument("--english", default=ENGLISH_CSV, type=Path, help="English reference catalogue")
+    p.add_argument("--preserve-existing-pack", action="store_true",
+                   help="Preserve all existing ZIP members; replace only Text/Port_Strings.csv")
     args = p.parse_args()
     try:
-        build(args.dfu_path, args.output)
-    except (OSError, ValueError, zipfile.BadZipFile) as exc:
+        build(args.dfu_path, args.output, args.english, args.preserve_existing_pack)
+    except (OSError, ValueError, zipfile.BadZipFile, subprocess.CalledProcessError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         sys.exit(1)

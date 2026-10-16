@@ -6,6 +6,8 @@ on:
     paths:
       - locales/ko/Port_Strings.csv
       - tools/ko/build_online_korean_pack.py
+      - tools/ko/check_port_translations.mjs
+      - tools/ko/reference/**
       - .github/workflows/build-korean-translation-pack.yml
   push:
     branches:
@@ -14,6 +16,8 @@ on:
     paths:
       - locales/ko/Port_Strings.csv
       - tools/ko/build_online_korean_pack.py
+      - tools/ko/check_port_translations.mjs
+      - tools/ko/reference/**
       - .github/workflows/build-korean-translation-pack.yml
 
 permissions:
@@ -32,6 +36,16 @@ jobs:
             locales/ko
             locales/en
             tools/ko
+            tools/translate.mjs
+            tools/lib
+            src/systems
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test pack validation rejects malformed translations
+        run: python3 tools/ko/test_pack_validation.py
 
       - name: Check out Daggerfall Unity Korean patch
         uses: actions/checkout@v4
