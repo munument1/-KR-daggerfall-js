@@ -1,0 +1,45 @@
+name: Validate Korean UI translations
+
+on:
+  pull_request:
+    paths:
+      - locales/ko/ui/**
+      - src/ui/enhancedChargen.js
+      - src/ui/enhancedInventory.js
+      - src/ui/socialPanel.js
+      - src/ui/settingsCopy.js
+      - tools/ko/check_ui_translations.mjs
+      - .github/workflows/validate-korean-ui.yml
+  push:
+    branches:
+      - main
+      - ko-online-qa-20261014
+    paths:
+      - locales/ko/ui/**
+      - src/ui/enhancedChargen.js
+      - src/ui/enhancedInventory.js
+      - src/ui/socialPanel.js
+      - src/ui/settingsCopy.js
+      - tools/ko/check_ui_translations.mjs
+      - .github/workflows/validate-korean-ui.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            locales/ko/ui
+            src/ui/enhancedChargen.js
+            src/ui/enhancedInventory.js
+            src/ui/socialPanel.js
+            src/ui/settingsCopy.js
+            tools/ko/check_ui_translations.mjs
+      - name: Check original UI strings and Korean drafts
+        run: node tools/ko/check_ui_translations.mjs

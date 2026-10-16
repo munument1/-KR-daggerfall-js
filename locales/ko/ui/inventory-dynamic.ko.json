@@ -1,0 +1,14 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "kind": "dynamic-template",
+  "source_file": "src/ui/enhancedInventory.js",
+  "source_sha": "0156b43466fa4ccde539bc2c698716bbce3e8e90",
+  "entries": [
+    {
+      "id": "inventory-dynamic.001",
+      "line": 3621,
+      "en": "${d.cards.length} cards",
+      "ko": "카드 ${d.cards.length}장"
+    }
+  ]
+}

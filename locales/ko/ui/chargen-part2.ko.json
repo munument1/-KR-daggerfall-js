@@ -1,0 +1,168 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/enhancedChargen.js",
+  "entries": [
+    {
+      "id": "chargen.061",
+      "line": 878,
+      "en": "Where have you been?",
+      "ko": "당신은 어떤 삶을 살아왔나요?"
+    },
+    {
+      "id": "chargen.062",
+      "line": 881,
+      "en": "Answer twelve questions",
+      "ko": "열두 가지 질문에 답하기"
+    },
+    {
+      "id": "chargen.063",
+      "line": 882,
+      "en": "Your answers move skills, gold, gear and how people take to you.",
+      "ko": "답변에 따라 기술, 금화, 장비, 사람들의 평가가 달라집니다."
+    },
+    {
+      "id": "chargen.064",
+      "line": 885,
+      "en": "Let it be written for you",
+      "ko": "과거 자동 생성"
+    },
+    {
+      "id": "chargen.065",
+      "line": 886,
+      "en": "Answered at random, and every answer still counts.",
+      "ko": "무작위로 답변하며 그 결과는 모두 적용됩니다."
+    },
+    {
+      "id": "chargen.066",
+      "line": 940,
+      "en": "Word gets around",
+      "ko": "소문이 퍼지다"
+    },
+    {
+      "id": "chargen.067",
+      "line": 966,
+      "en": "What are you called?",
+      "ko": "이름이 무엇인가요?"
+    },
+    {
+      "id": "chargen.068",
+      "line": 992,
+      "en": "Suggest one",
+      "ko": "이름 추천"
+    },
+    {
+      "id": "chargen.069",
+      "line": 1002,
+      "en": "Continue",
+      "ko": "계속"
+    },
+    {
+      "id": "chargen.070",
+      "line": 1026,
+      "en": "Which face is yours?",
+      "ko": "어떤 얼굴을 선택하시겠습니까?"
+    },
+    {
+      "id": "chargen.071",
+      "line": 1030,
+      "en": "The portraits need this race’s FACE CIF. Any of the ten will do.",
+      "ko": "초상화를 표시하려면 해당 종족의 FACE CIF 데이터가 필요합니다. 열 개 중 어느 얼굴이든 선택할 수 있습니다."
+    },
+    {
+      "id": "chargen.072",
+      "line": 1048,
+      "en": "This one",
+      "ko": "이 얼굴로 선택"
+    },
+    {
+      "id": "chargen.073",
+      "line": 1122,
+      "en": "What these buy you",
+      "ko": "능력치에 따른 효과"
+    },
+    {
+      "id": "chargen.074",
+      "line": 1125,
+      "en": "Damage",
+      "ko": "피해량"
+    },
+    {
+      "id": "chargen.075",
+      "line": 1125,
+      "en": "Carry weight",
+      "ko": "운반 한도"
+    },
+    {
+      "id": "chargen.076",
+      "line": 1136,
+      "en": "Roll again",
+      "ko": "다시 굴리기"
+    },
+    {
+      "id": "chargen.077",
+      "line": 1213,
+      "en": "less",
+      "ko": "감소"
+    },
+    {
+      "id": "chargen.078",
+      "line": 1213,
+      "en": "more",
+      "ko": "증가"
+    },
+    {
+      "id": "chargen.079",
+      "line": 1237,
+      "en": "How quick are you?",
+      "ko": "반응 속도를 선택하세요."
+    },
+    {
+      "id": "chargen.080",
+      "line": 1286,
+      "en": "Points left to spend",
+      "ko": "남은 배분 점수"
+    },
+    {
+      "id": "chargen.081",
+      "line": 1293,
+      "en": "Back to it",
+      "ko": "배분 화면으로 돌아가기"
+    },
+    {
+      "id": "chargen.082",
+      "line": 1383,
+      "en": "Begin your life",
+      "ko": "모험 시작"
+    },
+    {
+      "id": "chargen.083",
+      "line": 1385,
+      "en": "Start over",
+      "ko": "처음부터 다시"
+    },
+    {
+      "id": "chargen.084",
+      "line": 1425,
+      "en": "The wizard runs on one flow and this stage could not read what it needed. Go back and choose again.",
+      "ko": "캐릭터 생성 과정에서 이 단계에 필요한 정보를 읽지 못했습니다. 이전 단계로 돌아가 다시 선택하세요."
+    },
+    {
+      "id": "chargen.085",
+      "line": 1472,
+      "en": "New Character",
+      "ko": "새 캐릭터"
+    },
+    {
+      "id": "chargen.086",
+      "line": 1537,
+      "en": "Cancel",
+      "ko": "취소"
+    },
+    {
+      "id": "chargen.087",
+      "line": 1537,
+      "en": "Back",
+      "ko": "뒤로"
+    }
+  ]
+}

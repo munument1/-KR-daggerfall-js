@@ -1,0 +1,403 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/socialPanel.js",
+  "source_sha": "de4515df4c6d32ef8ff72b0ff23bb3b5c5cdf303",
+  "entries": [
+    {
+      "id": "social.001",
+      "line": 500,
+      "en": "Friends and party",
+      "ko": "친구와 파티"
+    },
+    {
+      "id": "social.002",
+      "line": 503,
+      "en": "Close social",
+      "ko": "소셜 창 닫기"
+    },
+    {
+      "id": "social.003",
+      "line": 17,
+      "en": "Social",
+      "ko": "소셜"
+    },
+    {
+      "id": "social.004",
+      "line": 500,
+      "en": "Friends",
+      "ko": "친구"
+    },
+    {
+      "id": "social.005",
+      "line": 3,
+      "en": "Party",
+      "ko": "파티"
+    },
+    {
+      "id": "social.006",
+      "line": 50,
+      "en": "Letters",
+      "ko": "편지"
+    },
+    {
+      "id": "social.007",
+      "line": 56,
+      "en": "Guild",
+      "ko": "길드"
+    },
+    {
+      "id": "social.008",
+      "line": 114,
+      "en": "Accept",
+      "ko": "수락"
+    },
+    {
+      "id": "social.009",
+      "line": 536,
+      "en": "Decline",
+      "ko": "거절"
+    },
+    {
+      "id": "social.010",
+      "line": 644,
+      "en": "Leader",
+      "ko": "파티장"
+    },
+    {
+      "id": "social.011",
+      "line": 663,
+      "en": "Requests",
+      "ko": "요청"
+    },
+    {
+      "id": "social.012",
+      "line": 676,
+      "en": "Cancel",
+      "ko": "취소"
+    },
+    {
+      "id": "social.013",
+      "line": 36,
+      "en": "Invite",
+      "ko": "초대"
+    },
+    {
+      "id": "social.014",
+      "line": 50,
+      "en": "Letter",
+      "ko": "편지"
+    },
+    {
+      "id": "social.015",
+      "line": 710,
+      "en": "Sure?",
+      "ko": "정말 진행할까요?"
+    },
+    {
+      "id": "social.016",
+      "line": 83,
+      "en": "Remove",
+      "ko": "제거"
+    },
+    {
+      "id": "social.017",
+      "line": 723,
+      "en": "Party invitations",
+      "ko": "파티 초대"
+    },
+    {
+      "id": "social.018",
+      "line": 754,
+      "en": "Call off",
+      "ko": "취소하기"
+    },
+    {
+      "id": "social.019",
+      "line": 762,
+      "en": "Travel together",
+      "ko": "함께 여행하기"
+    },
+    {
+      "id": "social.020",
+      "line": 762,
+      "en": "Choose a destination on the travel map - the party gathered with you is asked to come along.",
+      "ko": "여행 지도에서 목적지를 선택하면 함께 모인 파티원들에게 동행을 요청합니다."
+    },
+    {
+      "id": "social.021",
+      "line": 544,
+      "en": "Travel map",
+      "ko": "여행 지도"
+    },
+    {
+      "id": "social.022",
+      "line": 740,
+      "en": "Ready",
+      "ko": "준비 완료"
+    },
+    {
+      "id": "social.023",
+      "line": 740,
+      "en": "Stay behind",
+      "ko": "남아서 기다리기"
+    },
+    {
+      "id": "social.024",
+      "line": 760,
+      "en": "Step outside",
+      "ko": "먼저 밖으로 나가세요."
+    },
+    {
+      "id": "social.025",
+      "line": 555,
+      "en": "Journey",
+      "ko": "여행"
+    },
+    {
+      "id": "social.026",
+      "line": 780,
+      "en": "Kick",
+      "ko": "파티에서 추방"
+    },
+    {
+      "id": "social.027",
+      "line": 820,
+      "en": "Leave party",
+      "ko": "파티 탈퇴"
+    },
+    {
+      "id": "social.028",
+      "line": 866,
+      "en": "Write a letter",
+      "ko": "편지 쓰기"
+    },
+    {
+      "id": "social.029",
+      "line": 877,
+      "en": "Unread.",
+      "ko": "읽지 않음."
+    },
+    {
+      "id": "social.030",
+      "line": 893,
+      "en": "Back",
+      "ko": "뒤로"
+    },
+    {
+      "id": "social.031",
+      "line": 907,
+      "en": "Reply",
+      "ko": "답장"
+    },
+    {
+      "id": "social.032",
+      "line": 703,
+      "en": "no username",
+      "ko": "사용자 이름 없음"
+    },
+    {
+      "id": "social.033",
+      "line": 912,
+      "en": "Kept in your journal",
+      "ko": "일지에 보관됨"
+    },
+    {
+      "id": "social.034",
+      "line": 912,
+      "en": "Keep in my journal",
+      "ko": "일지에 보관"
+    },
+    {
+      "id": "social.035",
+      "line": 565,
+      "en": "Delete",
+      "ko": "삭제"
+    },
+    {
+      "id": "social.036",
+      "line": 984,
+      "en": "Sending...",
+      "ko": "보내는 중..."
+    },
+    {
+      "id": "social.037",
+      "line": 565,
+      "en": "Send",
+      "ko": "보내기"
+    },
+    {
+      "id": "social.038",
+      "line": 1043,
+      "en": "Invitations",
+      "ko": "초대"
+    },
+    {
+      "id": "social.039",
+      "line": 1038,
+      "en": "Join",
+      "ko": "가입"
+    },
+    {
+      "id": "social.040",
+      "line": 1047,
+      "en": "Invitation declined.",
+      "ko": "초대를 거절했습니다."
+    },
+    {
+      "id": "social.041",
+      "line": 1051,
+      "en": "Found a guild",
+      "ko": "길드 가입 완료"
+    },
+    {
+      "id": "social.042",
+      "line": 1082,
+      "en": "Guild Stores",
+      "ko": "길드 창고"
+    },
+    {
+      "id": "social.043",
+      "line": 1067,
+      "en": "Reading the guild Stores...",
+      "ko": "길드 창고를 불러오는 중..."
+    },
+    {
+      "id": "social.044",
+      "line": 98,
+      "en": "Try again",
+      "ko": "다시 시도"
+    },
+    {
+      "id": "social.045",
+      "line": 1091,
+      "en": "The guild Stores hold nothing yet. Any member may put in from their own Stores.",
+      "ko": "길드 창고가 비어 있습니다. 모든 길드원은 개인 창고에서 물품을 옮겨 넣을 수 있습니다."
+    },
+    {
+      "id": "social.046",
+      "line": 75,
+      "en": "Put in",
+      "ko": "넣기"
+    },
+    {
+      "id": "social.047",
+      "line": 1116,
+      "en": "Take out",
+      "ko": "꺼내기"
+    },
+    {
+      "id": "social.048",
+      "line": 1112,
+      "en": "A material of your Stores",
+      "ko": "개인 창고의 재료"
+    },
+    {
+      "id": "social.049",
+      "line": 1116,
+      "en": "A material of the guild Stores",
+      "ko": "길드 창고의 재료"
+    },
+    {
+      "id": "social.050",
+      "line": 1150,
+      "en": "Writ budget",
+      "ko": "길드 의뢰 예산"
+    },
+    {
+      "id": "social.051",
+      "line": 117,
+      "en": "Hall",
+      "ko": "길드 회관"
+    },
+    {
+      "id": "social.052",
+      "line": 1182,
+      "en": "Open it to anyone",
+      "ko": "누구나 출입 허용"
+    },
+    {
+      "id": "social.053",
+      "line": 1182,
+      "en": "Members only",
+      "ko": "길드원만 출입"
+    },
+    {
+      "id": "social.054",
+      "line": 1187,
+      "en": "Sell the hall",
+      "ko": "길드 회관 판매"
+    },
+    {
+      "id": "social.055",
+      "line": 118,
+      "en": "The guild",
+      "ko": "길드 정보"
+    },
+    {
+      "id": "social.056",
+      "line": 1265,
+      "en": "Elsewhere",
+      "ko": "다른 곳에서 관리"
+    },
+    {
+      "id": "social.057",
+      "line": 1293,
+      "en": "Promote",
+      "ko": "승급"
+    },
+    {
+      "id": "social.058",
+      "line": 1294,
+      "en": "Demote",
+      "ko": "강등"
+    },
+    {
+      "id": "social.059",
+      "line": 1303,
+      "en": "Make guildmaster",
+      "ko": "길드장 위임"
+    },
+    {
+      "id": "social.060",
+      "line": 1353,
+      "en": "What each rank may do",
+      "ko": "계급별 권한"
+    },
+    {
+      "id": "social.061",
+      "line": 124,
+      "en": "Treasury",
+      "ko": "금고"
+    },
+    {
+      "id": "social.062",
+      "line": 1404,
+      "en": "Silver treasury",
+      "ko": "은화 금고"
+    },
+    {
+      "id": "social.063",
+      "line": 1443,
+      "en": "Reading the vault...",
+      "ko": "금고를 불러오는 중..."
+    },
+    {
+      "id": "social.064",
+      "line": 1474,
+      "en": "Nothing in your pack can go in the vault.",
+      "ko": "현재 소지품에는 금고에 넣을 수 있는 물건이 없습니다."
+    },
+    {
+      "id": "social.065",
+      "line": 1493,
+      "en": "The latest",
+      "ko": "최근 기록"
+    },
+    {
+      "id": "social.066",
+      "line": 173,
+      "en": "Arms",
+      "ko": "무기"
+    }
+  ]
+}

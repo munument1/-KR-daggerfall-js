@@ -1,0 +1,247 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "source_file": "src/ui/settingsCopy.js",
+  "source_sha": "8cad754c7cef1533c6d2fbee240e5db3132e4b0e",
+  "entries": [
+    {
+      "id": "settings-extra.001",
+      "section": "READOUT",
+      "key": "Enhancements/EnhancedCombatAI",
+      "line": 278,
+      "en": "classic",
+      "ko": "기본 방식"
+    },
+    {
+      "id": "settings-extra.002",
+      "section": "READOUT",
+      "key": "Enhancements/AdvancedClimbing",
+      "line": 279,
+      "en": "classic",
+      "ko": "기본 방식"
+    },
+    {
+      "id": "settings-extra.003",
+      "section": "READOUT",
+      "key": "Enhancements/LypyL_ModSystem",
+      "line": 280,
+      "en": "none",
+      "ko": "없음"
+    },
+    {
+      "id": "settings-extra.004",
+      "section": "READOUT",
+      "key": "Enhancements/CompressModdedTextures",
+      "line": 281,
+      "en": "none",
+      "ko": "없음"
+    },
+    {
+      "id": "settings-extra.005",
+      "section": "READOUT",
+      "key": "Experimental/CustomBooksImport",
+      "line": 282,
+      "en": "none",
+      "ko": "없음"
+    },
+    {
+      "id": "settings-extra.006",
+      "section": "READOUT",
+      "key": "Daggerfall/MyDaggerfallPath",
+      "line": 283,
+      "en": "your files",
+      "ko": "선택한 게임 파일"
+    },
+    {
+      "id": "settings-extra.007",
+      "section": "READOUT",
+      "key": "Daggerfall/MyDaggerfallUnitySavePath",
+      "line": 284,
+      "en": "this browser",
+      "ko": "이 브라우저"
+    },
+    {
+      "id": "settings-extra.008",
+      "section": "READOUT",
+      "key": "Daggerfall/MyDaggerfallUnityScreenshotsPath",
+      "line": 285,
+      "en": "downloads",
+      "ko": "다운로드 폴더"
+    },
+    {
+      "id": "settings-extra.009",
+      "section": "READOUT",
+      "key": "Video/ResolutionWidth",
+      "line": 286,
+      "en": "your window",
+      "ko": "현재 창"
+    },
+    {
+      "id": "settings-extra.010",
+      "section": "READOUT",
+      "key": "Video/ResolutionHeight",
+      "line": 287,
+      "en": "your window",
+      "ko": "현재 창"
+    },
+    {
+      "id": "settings-extra.011",
+      "section": "READOUT",
+      "key": "Video/ExclusiveFullscreen",
+      "line": 288,
+      "en": "browser",
+      "ko": "브라우저에서 설정"
+    },
+    {
+      "id": "settings-extra.012",
+      "section": "READOUT",
+      "key": "Video/Fullscreen",
+      "line": 289,
+      "en": "browser",
+      "ko": "브라우저에서 설정"
+    },
+    {
+      "id": "settings-extra.013",
+      "section": "READOUT",
+      "key": "Video/VSync",
+      "line": 290,
+      "en": "always",
+      "ko": "항상 적용"
+    },
+    {
+      "id": "settings-extra.014",
+      "section": "INSTEAD",
+      "key": "Enhancements/EnhancedCombatAI",
+      "line": 296,
+      "en": "You get the original game's own enemy behaviour, exactly as it shipped.",
+      "ko": "원작 출시 당시의 적 행동 방식을 그대로 사용합니다."
+    },
+    {
+      "id": "settings-extra.015",
+      "section": "INSTEAD",
+      "key": "Enhancements/AdvancedClimbing",
+      "line": 297,
+      "en": "You get the original game's own climbing, exactly as it shipped.",
+      "ko": "원작 출시 당시의 등반 방식을 그대로 사용합니다."
+    },
+    {
+      "id": "settings-extra.016",
+      "section": "INSTEAD",
+      "key": "Enhancements/LypyL_ModSystem",
+      "line": 298,
+      "en": "Nothing to add yet - when add-ons arrive they will be listed on this page.",
+      "ko": "아직 추가할 항목이 없습니다. 부가 콘텐츠가 지원되면 이 페이지에 표시됩니다."
+    },
+    {
+      "id": "settings-extra.017",
+      "section": "INSTEAD",
+      "key": "Enhancements/CompressModdedTextures",
+      "line": 299,
+      "en": "Nothing to add yet - when add-ons arrive they will be listed on this page.",
+      "ko": "아직 추가할 항목이 없습니다. 부가 콘텐츠가 지원되면 이 페이지에 표시됩니다."
+    },
+    {
+      "id": "settings-extra.018",
+      "section": "INSTEAD",
+      "key": "Experimental/CustomBooksImport",
+      "line": 300,
+      "en": "Nothing to add yet - when add-ons arrive they will be listed on this page.",
+      "ko": "아직 추가할 항목이 없습니다. 부가 콘텐츠가 지원되면 이 페이지에 표시됩니다."
+    },
+    {
+      "id": "settings-extra.019",
+      "section": "INSTEAD",
+      "key": "Daggerfall/MyDaggerfallPath",
+      "line": 301,
+      "en": "The game reads the files you chose, straight from this browser.",
+      "ko": "게임은 이 브라우저에서 선택한 파일을 직접 읽습니다."
+    },
+    {
+      "id": "settings-extra.020",
+      "section": "INSTEAD",
+      "key": "Daggerfall/MyDaggerfallUnitySavePath",
+      "line": 302,
+      "en": "Saves live in this browser and survive a reload.",
+      "ko": "저장 데이터는 이 브라우저에 보관되며 페이지를 새로고침해도 유지됩니다."
+    },
+    {
+      "id": "settings-extra.021",
+      "section": "INSTEAD",
+      "key": "Daggerfall/MyDaggerfallUnityScreenshotsPath",
+      "line": 303,
+      "en": "Pictures go wherever your browser puts downloads.",
+      "ko": "스크린샷은 브라우저에서 지정한 다운로드 위치에 저장됩니다."
+    },
+    {
+      "id": "settings-extra.022",
+      "section": "INSTEAD",
+      "key": "Video/ResolutionWidth",
+      "line": 304,
+      "en": "The picture already fills the window you give it.",
+      "ko": "게임 화면은 이미 현재 브라우저 창의 너비에 맞춰 표시됩니다."
+    },
+    {
+      "id": "settings-extra.023",
+      "section": "INSTEAD",
+      "key": "Video/ResolutionHeight",
+      "line": 305,
+      "en": "The picture already fills the window you give it.",
+      "ko": "게임 화면은 이미 현재 브라우저 창의 높이에 맞춰 표시됩니다."
+    },
+    {
+      "id": "settings-extra.024",
+      "section": "INSTEAD",
+      "key": "Video/ExclusiveFullscreen",
+      "line": 306,
+      "en": "Use your browser's own fullscreen, from its menu - F11 is the game's Quick Load. In the desktop app: View > Toggle Full Screen (Alt+Enter on Windows and Linux).",
+      "ko": "전체 화면은 브라우저 메뉴에서 전환하세요. F11은 게임의 빠른 불러오기 키입니다. 데스크톱 앱에서는 보기 > 전체 화면 전환을 이용하세요. Windows와 Linux에서는 Alt+Enter 단축키도 사용할 수 있습니다."
+    },
+    {
+      "id": "settings-extra.025",
+      "section": "INSTEAD",
+      "key": "Video/Fullscreen",
+      "line": 307,
+      "en": "Use your browser's own fullscreen, from its menu - F11 is the game's Quick Load. In the desktop app: View > Toggle Full Screen (Alt+Enter on Windows and Linux).",
+      "ko": "전체 화면은 브라우저 메뉴에서 전환하세요. F11은 게임의 빠른 불러오기 키입니다. 데스크톱 앱에서는 보기 > 전체 화면 전환을 이용하세요. Windows와 Linux에서는 Alt+Enter 단축키도 사용할 수 있습니다."
+    },
+    {
+      "id": "settings-extra.026",
+      "section": "INSTEAD",
+      "key": "Video/VSync",
+      "line": 308,
+      "en": "Frames always wait for your screen. To run slower than it, set a Frame Rate Cap.",
+      "ko": "화면 갱신 주기에 맞춰 프레임이 출력됩니다. 더 낮은 프레임 속도로 실행하려면 프레임 제한을 설정하세요."
+    },
+    {
+      "id": "settings-extra.027",
+      "section": "TIER_TEXT",
+      "key": "live",
+      "line": 313,
+      "en": "This works now.",
+      "ko": "현재 적용 중입니다."
+    },
+    {
+      "id": "settings-extra.028",
+      "section": "TIER_TEXT",
+      "key": "restart",
+      "line": 314,
+      "en": "Takes effect the next time the app starts.",
+      "ko": "앱을 다시 실행하면 적용됩니다."
+    },
+    {
+      "id": "settings-extra.029",
+      "section": "TIER_TEXT",
+      "key": "stored",
+      "line": 315,
+      "en": "Your choice is saved, but nothing reads it yet.",
+      "ko": "설정은 저장되지만 아직 게임에 반영되지 않습니다."
+    },
+    {
+      "id": "settings-extra.030",
+      "section": "TIER_TEXT",
+      "key": "unavailable",
+      "line": 316,
+      "en": "Fixed here - it cannot be changed in this port.",
+      "ko": "이 버전에서는 값이 고정되어 변경할 수 없습니다."
+    }
+  ]
+}

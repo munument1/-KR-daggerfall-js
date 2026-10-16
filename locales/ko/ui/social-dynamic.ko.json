@@ -1,0 +1,140 @@
+{
+  "status": "draft_not_loaded_by_game",
+  "kind": "dynamic-template",
+  "source_file": "src/ui/socialPanel.js",
+  "source_sha": "de4515df4c6d32ef8ff72b0ff23bb3b5c5cdf303",
+  "entries": [
+    {
+      "id": "social-dynamic.001",
+      "line": 252,
+      "en": "A guild's name and tag may not carry \"${r.why}\" - a word the realm keeps out of names.",
+      "ko": "길드 이름과 태그에는 금지된 단어 \"${r.why}\"을 사용할 수 없습니다."
+    },
+    {
+      "id": "social-dynamic.002",
+      "line": 253,
+      "en": "A rank's name may not carry \"${r.why}\" - a word the realm keeps out of names.",
+      "ko": "계급 이름에는 금지된 단어 \"${r.why}\"을 사용할 수 없습니다."
+    },
+    {
+      "id": "social-dynamic.003",
+      "line": 681,
+      "en": "Friends (${rows.length})",
+      "ko": "친구 (${rows.length})"
+    },
+    {
+      "id": "social-dynamic.004",
+      "line": 725,
+      "en": "${inv.from.name} invites you",
+      "ko": "${inv.from.name}님의 파티 초대"
+    },
+    {
+      "id": "social-dynamic.005",
+      "line": 749,
+      "en": "Setting out for ${st.round.dest}",
+      "ko": "목적지로 출발 준비 중: ${st.round.dest}"
+    },
+    {
+      "id": "social-dynamic.006",
+      "line": 751,
+      "en": "To ${st.round.dest}",
+      "ko": "목적지: ${st.round.dest}"
+    },
+    {
+      "id": "social-dynamic.007",
+      "line": 766,
+      "en": "${st.leader} asks the party to come along.",
+      "ko": "${st.leader}님이 파티에 동행을 요청했습니다."
+    },
+    {
+      "id": "social-dynamic.008",
+      "line": 768,
+      "en": "Gather with ${st.leader} to answer",
+      "ko": "응답하려면 ${st.leader}님 곁으로 모이세요."
+    },
+    {
+      "id": "social-dynamic.009",
+      "line": 771,
+      "en": "Following ${st.leader}",
+      "ko": "${st.leader}님을 따라가는 중"
+    },
+    {
+      "id": "social-dynamic.010",
+      "line": 773,
+      "en": "${st.leader} is elsewhere",
+      "ko": "${st.leader}님은 다른 장소에 있습니다."
+    },
+    {
+      "id": "social-dynamic.011",
+      "line": 775,
+      "en": "Travel to ${st.leader}",
+      "ko": "파티장에게 이동: ${st.leader}"
+    },
+    {
+      "id": "social-dynamic.012",
+      "line": 795,
+      "en": "Your party (${p.members.length}/${PARTY_MAX})",
+      "ko": "내 파티 (${p.members.length}/${PARTY_MAX})"
+    },
+    {
+      "id": "social-dynamic.013",
+      "line": 872,
+      "en": "Letters (${mail.letters.length}/${mail.max})",
+      "ko": "편지 (${mail.letters.length}/${mail.max})"
+    },
+    {
+      "id": "social-dynamic.014",
+      "line": 898,
+      "en": "Sent ${letterAgeText(l.sentAt, mail.now())}",
+      "ko": "보낸 시각: ${letterAgeText(l.sentAt, mail.now())}"
+    },
+    {
+      "id": "social-dynamic.015",
+      "line": 1046,
+      "en": "You joined ${inv.name}.",
+      "ko": "${inv.name} 길드에 가입했습니다."
+    },
+    {
+      "id": "social-dynamic.016",
+      "line": 1085,
+      "en": "The guild Stores cannot be read now: ${guildWordText(guildUi.storesError)}",
+      "ko": "길드 창고를 불러오지 못했습니다: ${guildWordText(guildUi.storesError)}"
+    },
+    {
+      "id": "social-dynamic.017",
+      "line": 1162,
+      "en": "Your writ budget this week: ${marksText(b.left)} of ${marksText(b.budget)} left.",
+      "ko": "이번 주 의뢰 예산 잔액: ${marksText(b.left)} / ${marksText(b.budget)}"
+    },
+    {
+      "id": "social-dynamic.018",
+      "line": 1182,
+      "en": "Who may enter the hall: ${GUILD_HALL_ENTRY_WORDS[next]}.",
+      "ko": "길드 회관 출입 대상: ${GUILD_HALL_ENTRY_WORDS[next]}."
+    },
+    {
+      "id": "social-dynamic.019",
+      "line": 1227,
+      "en": "You are ${rankName(v, me)} - the treasury holds ${Number(v.treasury).toLocaleString('en-US')} gold",
+      "ko": "현재 계급: ${rankName(v, me)} · 길드 금고: ${Number(v.treasury).toLocaleString('en-US')}골드"
+    },
+    {
+      "id": "social-dynamic.020",
+      "line": 1276,
+      "en": "Members (${v.members.length}/${GUILD_MEMBERS_MAX})",
+      "ko": "길드원 (${v.members.length}/${GUILD_MEMBERS_MAX})"
+    },
+    {
+      "id": "social-dynamic.021",
+      "line": 1293,
+      "en": "${m.name} is ${rankName(v, m.rank - 1)} now.",
+      "ko": "${m.name}님의 새 계급: ${rankName(v, m.rank - 1)}"
+    },
+    {
+      "id": "social-dynamic.022",
+      "line": 1294,
+      "en": "${m.name} is ${rankName(v, m.rank + 1)} now.",
+      "ko": "${m.name}님의 새 계급: ${rankName(v, m.rank + 1)}"
+    }
+  ]
+}
